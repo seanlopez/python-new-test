@@ -1,0 +1,41 @@
+<data>
+    <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+        <interface>
+            <GigabitEthernet>
+                <name>1</name>
+                <ip>
+                    <address>
+                        <dhcp/>
+                    </address>
+                </ip>
+                <mop>
+                    <enabled>false</enabled>
+                    <sysid>false</sysid>
+                </mop>
+                <negotiation xmlns="http://cisco.com/ns/yang/Cisco-IOS-XEethernet">
+                    <auto>true</auto>
+                </negotiation>
+            </GigabitEthernet>
+
+            <GigabitEthernet>
+                <name>2</name>
+                <ip>
+                    <address>
+                        <primary>
+                            <address>192.168.1.1</address>
+                            <mask>255.255.255.0</mask>
+                        </primary>
+                    </address>
+                </ip>
+                <mop>
+                    <enabled>false</enabled>
+                    <sysid>false</sysid>
+                </mop>
+                <negotiation xmlns="http://cisco.com/ns/yang/Cisco-IOS-XEethernet">
+                    <auto>true</auto>
+                </negotiation>
+            </GigabitEthernet>
+
+        </interface>
+    </native>
+</data>

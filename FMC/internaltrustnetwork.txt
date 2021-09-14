@@ -1,0 +1,2275 @@
+{
+ "name":"IPV6_Vlan1274",
+ "value": "2401:B00:12:10::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1276",
+ "value": "2401:B00:9:11::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1277",
+ "value": "2401:B00:9:9::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1278",
+ "value": "2401:B00:9:10::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1279",
+ "value": "2401:B00:9:15::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1280",
+ "value": "2401:B00:9:12::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1281",
+ "value": "2401:B00:9::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1282",
+ "value": "2401:B00:9:16::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1283",
+ "value": "2401:B00:9:14::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1284",
+ "value": "2401:B00:9:3::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1285",
+ "value": "2401:B00:9:13::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1295",
+ "value": "2401:B00:9:8::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1354",
+ "value": "2401:B00:3:801::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1477",
+ "value": "2401:B00:3:703::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1478",
+ "value": "2401:B00:12:21::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1479",
+ "value": "2401:B00:3:701::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1293",
+ "value": "2401:B00:3:301::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1107",
+ "value": "2401:B00:A:302::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1108",
+ "value": "2401:B00:A:303::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1109",
+ "value": "2401:B00:A:300::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1110",
+ "value": "2401:B00:A:305::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1111",
+ "value": "2401:B00:A:304::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1112",
+ "value": "2401:B00:A:301::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1113",
+ "value": "2401:B00:A:306::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1114",
+ "value": "2401:B00:12:12::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1123",
+ "value": "2401:B00:A:107::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1124",
+ "value": "2401:B00:A:101::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1125",
+ "value": "2401:B00:A:105::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1126",
+ "value": "2401:B00:A:103::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1127",
+ "value": "2401:B00:A:109::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1128",
+ "value": "2401:B00:A:102::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1129",
+ "value": "2401:B00:A:10F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1130",
+ "value": "2401:B00:A:100::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1131",
+ "value": "2401:B00:A:10A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1132",
+ "value": "2401:B00:A:108::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1133",
+ "value": "2401:B00:A:106::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1134",
+ "value": "2401:B00:A:104::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1115",
+ "value": "2401:B00:A:200::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1116",
+ "value": "2401:B00:A:206::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1117",
+ "value": "2401:B00:A:204::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1118",
+ "value": "2401:B00:A:203::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1119",
+ "value": "2401:B00:A:207::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1120",
+ "value": "2401:B00:A:205::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1121",
+ "value": "/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1122",
+ "value": "2401:B00:A:201::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1148",
+ "value": "2401:B00:A:202::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1475",
+ "value": "2401:B00:8:402::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1275",
+ "value": "2401:B00:12:9::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1286",
+ "value": "2401:B00:6:30B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1287",
+ "value": "2401:B00:6:307::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1288",
+ "value": "2401:B00:6:301::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1289",
+ "value": "2401:B00:6:302::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1290",
+ "value": "2401:B00:6:304::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1291",
+ "value": "2401:B00:6:300::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1292",
+ "value": "2401:B00:6:303::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1338",
+ "value": "2401:B00:8:703::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1339",
+ "value": "2401:B00:8:702::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1340",
+ "value": "2401:B00:8:700::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1341",
+ "value": "2401:B00:8:701::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1342",
+ "value": "2401:B00:8:706::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1343",
+ "value": "2401:B00:8:707::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1344",
+ "value": "2401:B00:8:705::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1355",
+ "value": "2401:B00:6:400::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1405",
+ "value": "2401:B00:12:17::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1420",
+ "value": "2401:B00:A:600::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1421",
+ "value": "2401:B00:A:609::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1422",
+ "value": "2401:B00:A:602::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1423",
+ "value": "2401:B00:A:604::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1424",
+ "value": "2401:B00:A:608::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1425",
+ "value": "2401:B00:A:601::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1426",
+ "value": "2401:B00:A:60C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1427",
+ "value": "2401:B00:A:603::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1428",
+ "value": "2401:B00:A:607::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1429",
+ "value": "2401:B00:A:606::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1430",
+ "value": "2401:B00:A:60A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1431",
+ "value": "2401:B00:A:611::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1432",
+ "value": "2401:B00:A:60B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1433",
+ "value": "2401:B00:A:605::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1186",
+ "value": "2401:B00:6:104::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1187",
+ "value": "2401:B00:6:108::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1188",
+ "value": "2401:B00:6:107::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1189",
+ "value": "2401:B00:6:114::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1190",
+ "value": "2401:B00:6:103::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1191",
+ "value": "2401:B00:6:124::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1192",
+ "value": "2401:B00:6:110::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1193",
+ "value": "2401:B00:6:127::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1194",
+ "value": "2401:B00:6:115::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1195",
+ "value": "2401:B00:6:117::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1196",
+ "value": "2401:B00:6:106::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1197",
+ "value": "2401:B00:6:10B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1198",
+ "value": "2401:B00:6:125::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1199",
+ "value": "2401:B00:6:10A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1200",
+ "value": "2401:B00:6:100::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1201",
+ "value": "2401:B00:6:109::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1202",
+ "value": "2401:B00:6:12A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1203",
+ "value": "2401:B00:6:12B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1204",
+ "value": "2401:B00:6:10D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1205",
+ "value": "2401:B00:6:123::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1206",
+ "value": "2401:B00:6:113::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1207",
+ "value": "2401:B00:6:111::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1208",
+ "value": "2401:B00:6:121::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1209",
+ "value": "2401:B00:6:105::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1210",
+ "value": "2401:B00:6:10F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1211",
+ "value": "2401:B00:6:112::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1212",
+ "value": "2401:B00:6:10E::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1213",
+ "value": "2401:B00:6:12C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1214",
+ "value": "2401:B00:6:101::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1215",
+ "value": "2401:B00:6:102::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1216",
+ "value": "2401:B00:6:126::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1217",
+ "value": "2401:B00:6:122::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1244",
+ "value": "2401:B00:6:118::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1154",
+ "value": "2401:B00:8:114::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1155",
+ "value": "2401:B00:8:107::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1156",
+ "value": "2401:B00:8:115::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1157",
+ "value": "2401:B00:8:100::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1158",
+ "value": "2401:B00:8:112::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1159",
+ "value": "2401:B00:12:C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1160",
+ "value": "2401:B00:8:10F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1161",
+ "value": "2401:B00:8:103::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1162",
+ "value": "2401:B00:8:104::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1163",
+ "value": "2401:B00:8:109::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1164",
+ "value": "2401:B00:8:10A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1165",
+ "value": "2401:B00:8:108::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1166",
+ "value": "2401:B00:8:10E::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1167",
+ "value": "2401:B00:8:105::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1168",
+ "value": "2401:B00:8:113::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1169",
+ "value": "2401:B00:8:10D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1170",
+ "value": "2401:B00:8:110::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1171",
+ "value": "2401:B00:8:111::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1172",
+ "value": "2401:B00:8:101::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1173",
+ "value": "2401:B00:8:10C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1296",
+ "value": "2401:B00:A:B30::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1297",
+ "value": "2401:B00:A:B23::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1298",
+ "value": "2401:B00:A:B34::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1299",
+ "value": "2401:B00:A:B11::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1300",
+ "value": "2401:B00:A:B1E::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1301",
+ "value": "2401:B00:A:B2A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1302",
+ "value": "2401:B00:A:B12::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1303",
+ "value": "2401:B00:A:B31::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1304",
+ "value": "2401:B00:A:B27::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1305",
+ "value": "2401:B00:A:B16::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1307",
+ "value": "2401:B00:A:B29::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1308",
+ "value": "2401:B00:A:B24::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1309",
+ "value": "2401:B00:A:B2E::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1310",
+ "value": "2401:B00:A:B36::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1311",
+ "value": "2401:B00:A:B2F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1312",
+ "value": "2401:B00:A:B2D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1313",
+ "value": "2401:B00:A:B38::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1314",
+ "value": "2401:B00:A:B1C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1315",
+ "value": "2401:B00:A:B2B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1316",
+ "value": "2401:B00:A:B17::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1317",
+ "value": "2401:B00:A:B20::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1318",
+ "value": "2401:B00:12:1B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1319",
+ "value": "2401:B00:A:B1A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1320",
+ "value": "2401:B00:A:B10::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1321",
+ "value": "2401:B00:A:B18::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1322",
+ "value": "2401:B00:A:B28::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1323",
+ "value": "2401:B00:A:B33::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1324",
+ "value": "2401:B00:A:B37::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1325",
+ "value": "2401:B00:A:B39::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1326",
+ "value": "2401:B00:A:B19::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1327",
+ "value": "2401:B00:A:B25::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1328",
+ "value": "2401:B00:A:B13::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1329",
+ "value": "2401:B00:A:B1D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1330",
+ "value": "2401:B00:A:B26::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1331",
+ "value": "2401:B00:A:B15::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1332",
+ "value": "2401:B00:A:B2C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1333",
+ "value": "2401:B00:A:B21::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1334",
+ "value": "2401:B00:A:B1F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1335",
+ "value": "2401:B00:A:B32::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1336",
+ "value": "2401:B00:A:B35::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1337",
+ "value": "2401:B00:A:B14::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1356",
+ "value": "2401:B00:A:B1B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1434",
+ "value": "2401:B00:6:6::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1435",
+ "value": "2401:B00:6:B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1436",
+ "value": "2401:B00:6:A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1437",
+ "value": "2401:B00:6:3::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1438",
+ "value": "2401:B00:6:4::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1439",
+ "value": "2401:B00:6:8::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1440",
+ "value": "2401:B00:6:9::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1441",
+ "value": "2401:B00:6:2::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1442",
+ "value": "2401:B00:6:7::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1443",
+ "value": "2401:B00:6:5::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1444",
+ "value": "2401:B00:6:F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1445",
+ "value": "2401:B00:6:E::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1446",
+ "value": "2401:B00:6:25::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1447",
+ "value": "2401:B00:12:A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1448",
+ "value": "2401:B00:6:29::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1449",
+ "value": "2401:B00:6:2D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1450",
+ "value": "2401:B00:6:2A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1451",
+ "value": "2401:B00:6:14::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1452",
+ "value": "2401:B00:6:24::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1453",
+ "value": "2401:B00:6:1A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1454",
+ "value": "2401:B00:6:1B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1455",
+ "value": "2401:B00:6:17::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1456",
+ "value": "2401:B00:6:16::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1457",
+ "value": "2401:B00:6:11::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1458",
+ "value": "2401:B00:6:13::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1459",
+ "value": "2401:B00:6:1C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1460",
+ "value": "2401:B00:6:21::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1461",
+ "value": "2401:B00:6:22::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1462",
+ "value": "2401:B00:6:18::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1463",
+ "value": "2401:B00:6:23::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1464",
+ "value": "2401:B00:6:1D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1476",
+ "value": "2401:B00:8:405::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1368",
+ "value": "2401:B00:5:705::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1369",
+ "value": "2401:B00:5:712::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1370",
+ "value": "2401:B00:5:707::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1371",
+ "value": "2401:B00:5:704::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1372",
+ "value": "2401:B00:5:728::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1373",
+ "value": "2401:B00:5:711::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1374",
+ "value": "2401:B00:5:713::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1375",
+ "value": "2401:B00:5:703::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1376",
+ "value": "2401:B00:5:709::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1377",
+ "value": "2401:B00:5:714::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1378",
+ "value": "2401:B00:5:710::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1379",
+ "value": "2401:B00:5:70A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1380",
+ "value": "2401:B00:5:702::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1381",
+ "value": "2401:B00:5:70D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1382",
+ "value": "2401:B00:5:70B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1383",
+ "value": "2401:B00:5:70C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1084",
+ "value": "2401:B00:C:80::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1085",
+ "value": "2401:B00:C:81::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1135",
+ "value": "2401:B00:12:E::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1384",
+ "value": "2401:B00:3:104::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1385",
+ "value": "2401:B00:3:101::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1386",
+ "value": "2401:B00:3:10C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1387",
+ "value": "2401:B00:3:111::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1388",
+ "value": "2401:B00:3:10F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1389",
+ "value": "2401:B00:3:110::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1390",
+ "value": "2401:B00:3:112::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1468",
+ "value": "2401:B00:12:B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1469",
+ "value": "2401:B00:8:41C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1471",
+ "value": "2401:B00:8:411::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1073",
+ "value": "2401:B00:A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1074",
+ "value": "2401:B00:A:1::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1076",
+ "value": "2401:B00:A:2::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1079",
+ "value": "2401:B00:A:3::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1080",
+ "value": "2401:B00:A:4::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1082",
+ "value": "2401:B00:A:5::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1089",
+ "value": "2401:B00:A:6::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1090",
+ "value": "2401:B00:A:7::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1091",
+ "value": "2401:B00:A:8::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1092",
+ "value": "2401:B00:A:9::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1093",
+ "value": "2401:B00:A:16::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1094",
+ "value": "2401:B00:A:13::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1095",
+ "value": "2401:B00:A:B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1096",
+ "value": "2401:B00:A:10::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1097",
+ "value": "2401:B00:A:15::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1098",
+ "value": "2401:B00:A:14::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1099",
+ "value": "2401:B00:A:E::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1100",
+ "value": "2401:B00:12:11::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1101",
+ "value": "2401:B00:A:A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1102",
+ "value": "2401:B00:A:12::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1103",
+ "value": "2401:B00:A:D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1104",
+ "value": "2401:B00:A:C::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1105",
+ "value": "2401:B00:A:F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1106",
+ "value": "2401:B00:A:11::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1391",
+ "value": "2401:B00:B:A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1392",
+ "value": "2401:B00:B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1393",
+ "value": "2401:B00:B:6::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1394",
+ "value": "2401:B00:B:9::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1395",
+ "value": "2401:B00:B:2::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1396",
+ "value": "2401:B00:B:4::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1397",
+ "value": "2401:B00:B:16::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1398",
+ "value": "2401:B00:B:3::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1399",
+ "value": "2401:B00:B:5::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1400",
+ "value": "2401:B00:B:7::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1401",
+ "value": "2401:B00:12:1F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1402",
+ "value": "2401:B00:B:8::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1403",
+ "value": "2401:B00:B:1::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1404",
+ "value": "2401:B00:B:B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1218",
+ "value": "2401:B00:9:102::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1219",
+ "value": "2401:B00:9:107::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1220",
+ "value": "2401:B00:9:112::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1221",
+ "value": "2401:B00:9:100::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1222",
+ "value": "2401:B00:9:109::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1223",
+ "value": "2401:B00:9:113::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1224",
+ "value": "2401:B00:9:114::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1225",
+ "value": "2401:B00:9:105::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1226",
+ "value": "2401:B00:9:110::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1227",
+ "value": "2401:B00:9:104::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1228",
+ "value": "2401:B00:9:10B::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1229",
+ "value": "2401:B00:9:10E::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1230",
+ "value": "2401:B00:9:10A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1231",
+ "value": "2401:B00:9:10D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1232",
+ "value": "2401:B00:9:111::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1233",
+ "value": "2401:B00:9:103::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1234",
+ "value": "2401:B00:9:108::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1235",
+ "value": "2401:B00:12:F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1236",
+ "value": "2401:B00:9:10F::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1237",
+ "value": "2401:B00:9:106::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1238",
+ "value": "2401:B00:9:118::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1239",
+ "value": "2401:B00:9:120::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1345",
+ "value": "2401:B00:12:6::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1347",
+ "value": "2401:B00:4:800::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1348",
+ "value": "2401:B00:4:806::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1349",
+ "value": "2401:B00:4:804::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1350",
+ "value": "2401:B00:4:805::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1351",
+ "value": "2401:B00:4:801::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1352",
+ "value": "2401:B00:4:802::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1353",
+ "value": "2401:B00:4:80E::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1240",
+ "value": "2401:B00:9:124::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1241",
+ "value": "2401:B00:9:121::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1242",
+ "value": "2401:B00:9:123::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1243",
+ "value": "2401:B00:9:122::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1356",
+ "value": "2401:B00:B:101::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1357",
+ "value": "2401:B00:B:105::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1358",
+ "value": "2401:B00:B:100::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1359",
+ "value": "2401:B00:B:103::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1360",
+ "value": "2401:B00:12:20::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1361",
+ "value": "2401:B00:B:106::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1362",
+ "value": "2401:B00:B:107::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1363",
+ "value": "2401:B00:B:104::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1364",
+ "value": "2401:B00:B:108::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1365",
+ "value": "2401:B00:B:10A::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1366",
+ "value": "2401:B00:B:109::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1367",
+ "value": "2401:B00:B:102::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1472",
+ "value": "2401:B00:8:40D::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1474",
+ "value": "2401:B00:8:418::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1149",
+ "value": "2401:B00:3:904::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1150",
+ "value": "2401:B00:3:905::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1151",
+ "value": "2401:B00:3:902::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1152",
+ "value": "2401:B00:3:903::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},
+{
+ "name":"IPV6_Vlan1153",
+ "value": "2401:B00:12:3::/64",
+ "overridable": false,
+ "description": "Wired Migrated",
+ "type": "network"
+},

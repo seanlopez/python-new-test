@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1+1 Calculation</title>
+</head>
+<body>
+<button onclick="location.href = '{% url 'script' %}'">Start Calculation!!</button><hr>
+{% if result %}
+{{ result }}
+{% endif %}
+
+<form action="/external/" method="post">
+    {% csrf_token %}
+    Text:
+    <input type="text" name="param1" required>
+    <input type="text" name="param2" required> <br>
+    <input type="submit" value="Submit 2 Parameters"> <hr>
+    {{data1}}
+</form>
+<hr>
+
+
+<h2>Upload File: </h2>
+<form action="/upload/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="document">
+    <button type="submit">Upload File</button>
+</form>
+<hr>
+{% if output %}
+{{ output }}
+{% endif %}
+
+</body>
+</html>

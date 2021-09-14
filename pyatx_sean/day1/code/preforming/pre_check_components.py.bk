@@ -1,0 +1,178 @@
+
+
+pre_check_list = [
+        "show ip interface brief",
+        "show interfaces",
+        "show arp detail"
+        ]
+
+show_interface_expectation = ([["interface", "counters","in_pkts"], ["interface", "counters", "out_pkts"]], [["not equals", "0"], ["not equals", "0"]])
+
+show_interface_report_content = [{"connection": "or"}, {"compliant": "traffic has been passed, checking compliant", "non-compliant": "no traffic passed, checking non-compliant"}]
+
+
+show_ip_interface_brief_expectation = ([["interface", "interface_status"]], [["equals", "Up"]])
+
+show_interface_report_content = [{"compliant": "interface is up", "non-compliant": "interface is down"}]
+
+
+'''
+def show_interface_policy(expectation, raw_data):
+    expectation = expectation
+    raw_data = raw_data
+    interfaces = list(raw_data.keys())
+    elements_num = len(expectation[0])
+    elements = expectation[0]
+    expectation_value = expectation[1]
+    result = {}
+    for i in range(elements_num):
+        result[i]={}
+        expectation_value_item = expectation_value[i]
+        for interface in interfaces:
+            if "Loopback" not in interface and "Null" not in interface:
+                value_path = elements[i]
+                value_path[0] = interface
+                value = ""
+                for path_locate in value_path:
+                    if value_path.index(path_locate) == 0:
+                        value = raw_data[path_locate]
+                    else:
+                        value = value[path_locate]  # ---> interface inbound traffic
+                result_pre = {}
+
+                if expectation_value_item[0] == "not equals":
+                    if str(value) != expectation_value_item[1]:
+                        result[i][interface] = "compliant"
+                    else:
+                        result[i][interface] = "non-compliant"
+                elif expectation_value_item[0] == "equals":
+                    if str(value) == expectation_value_item[1]:
+                        result[i][interface] = "compliant"
+                    else:
+                        result[i][interface] = "non-compliant"
+            else:
+                continue
+    return result 
+'''
+
+def interface_policy(expectation, raw_data, ignore_loop="False"):
+    expectation = expectation
+    raw_data = raw_data
+    interfaces = raw_data.keys()
+    interface_non_loop = []
+    if ignore_loop == "True":
+        for interface in interfaces:
+            if "Loopback" not in interface and "Null" not in interface:
+                interface_non_loop.append(interface)
+        interfaces = interface_non_loop
+    #print(interfaces)
+    elements_num = len(expectation[0])
+    elements = expectation[0]
+    expectation_value = expectation[1]
+    result = {}
+    for i in range(elements_num):
+        result[i]={}
+        expectation_value_item = expectation_value[i]
+        for interface in interfaces:
+            value_path = elements[i]
+            value_path[0] = interface
+            value = ""
+            for path_locate in value_path:
+                if value_path.index(path_locate) == 0:
+                    value = raw_data[path_locate]
+                else:
+                    value = value[path_locate]  # ---> interface inbound traffic
+            result_pre = {}
+            if expectation_value_item[0] == "not equals":
+                if str(value) != expectation_value_item[1]:
+                    result[i][interface] = "compliant"
+                else:
+                    result[i][interface] = "non-compliant"
+            elif expectation_value_item[0] == "equals":
+                if str(value) == expectation_value_item[1]:
+                    result[i][interface] = "compliant"
+                else:
+                    result[i][interface] = "non-compliant"
+    return result
+'''
+
+def show_ip_interface_brief_policy(expectation, raw_data):
+    expectation = expectation
+    raw_data = raw_data
+    interfaces = raw_data.keys()
+    elements_num = len(expectation[0])
+    elements = expectation[0]
+    expectation_value = expectation[1]
+    result = {}
+    for i in range(elements_num):
+        result[i]={}
+        expectation_value_item = expectation_value[i]
+        for interface in interfaces:
+            value_path = elements[i]
+            value_path[0] = interface
+            value = ""
+            for path_locate in value_path:
+                if value_path.index(path_locate) == 0:
+                    value = raw_data[path_locate]
+                else:
+                    value = value[path_locate]  # ---> interface inbound traffic
+            result_pre = {}
+            if expectation_value_item[0] == "not equals":
+                if str(value) != expectation_value_item[1]:
+                    result[i][interface] = "compliant"
+                else:
+                    result[i][interface] = "non-compliant"
+            elif expectation_value_item[0] == "equals":
+                if str(value) == expectation_value_item[1]:
+                    result[i][interface] = "compliant"
+                else:
+                    result[i][interface] = "non-compliant"
+    return result
+
+def show_ip_interface_brief(parsing_output, action="simple", port_num=None):
+    report = []
+    if action == "simple":
+        interface_output = parsing_output["interface"]
+        interface_port_num = interface.keys()
+        for interface in interface_port_num:
+            if interface_output[interface][interface_status] == "shutdown":
+                report_content = f"{interface} is shutdown\n"
+                report.append(report_content)
+            else:
+                report_content = f"{interface} is up\n"
+                report.append(report_content)
+        return report
+    elif action == "specifc":
+        port_num = port_num
+        interface_output = parsing_output["interface"][port_num]
+        if interface_output["interface_status"] == "shutdown":
+            report_content = f"{interface} is shutdown\n"
+            report.append(report_content)
+        else:
+            report_content = f"{interface} is up\n"
+            report.append(report_content)
+        return report
+
+'''
+
+import json
+import check_assessment
+
+if __name__ == "__main__":
+    f = open("/opt/pyats_share/output/test/testshowinterfaces", "r")
+    raw_data = f.read()
+    raw_data = json.loads(raw_data)
+    #print(show_interface_policy(show_interface_expectation, raw_data))
+
+    f1=open("/opt/pyats_share/output/test/testshowipinterfacebrief", "r")
+    raw_data1 = f1.read()
+    raw_data1 = json.loads(raw_data1)["interface"]
+    #print(show_ip_interface_brief_policy(show_ip_interface_brief_expecation, raw_data1))
+    result = interface_policy(show_ip_interface_brief_expectation, raw_data1)
+    check_assessment.assessment_logic_report(raw_data, interface_policy, show_interface_expectation, "test_report", 
+show_interface_report_content, "True")
+    check_assessment.assessment_logic_report(raw_data1, interface_policy, show_ip_interface_brief_expectation, "test_report", 
+show_interface_report_content, "True")
+
+
+

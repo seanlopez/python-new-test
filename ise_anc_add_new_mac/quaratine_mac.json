@@ -1,0 +1,14 @@
+{
+  "OperationAdditionalData" : {
+    "additionalData" : [
+      {
+        "name" : "macAddress",
+        "value" : "ba:22:cc:dd:32:54"
+      },
+      {
+        "name" : "policyName",
+        "value" : "QU"
+      }
+    ]
+  }
+}

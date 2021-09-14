@@ -1,0 +1,7 @@
+{
+  "ErsAncEndpointBulkRequest" :
+  {
+    "operationType" : "create",
+    "resourceMediaType" : "xml"
+  }
+}

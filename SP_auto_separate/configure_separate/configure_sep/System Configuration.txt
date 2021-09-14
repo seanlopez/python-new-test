@@ -1,0 +1,38 @@
+#--------------------------------------------------
+echo "System Configuration"
+#--------------------------------------------------
+    system
+        name "ME-D6-MLK"
+        location "STO MELAK-SAMARINDA "
+        coordinates "-0.236240,115.812059"
+        snmp
+            packet-size 9216
+        exit
+        time
+            ntp
+                no shutdown
+            exit
+            sntp
+                shutdown
+            exit
+            zone WITA 08
+        exit
+        thresholds
+            rmon
+                alarm 11 variable-oid tmnxHwTemperature.1.150994993 interval 1800 rising-event 11 rising-threshold 50 owner "Telkom"
+                alarm 20 variable-oid sgiCpuUsage.0 interval 1800 rising-event 20 rising-threshold 50 owner "Telkom"
+                event 11 description "CPM A Temperature reach 50c in last 30 minutes" owner "Telkom"
+                event 20 description "CPU Usage Increase to 50% in last 30 minutes on SFM-80G" owner "Telkom"
+            exit
+        exit
+        script-control
+            script "backup-config"
+                location "cf3:/script-backup-config.txt"
+                no shutdown
+            exit
+            script-policy "backup-config"
+                results "cf3:/result-backup-config/result-backup-config"
+                script "backup-config"
+                no shutdown
+            exit
+        exit

@@ -1,0 +1,12 @@
+#--------------------------------------------------
+echo "System Time NTP Configuration"
+#--------------------------------------------------
+    system
+        time
+            ntp
+                server 172.31.129.2 prefer
+                server 172.31.129.14
+            exit
+        exit
+    exit
+

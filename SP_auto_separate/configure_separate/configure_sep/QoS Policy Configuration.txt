@@ -1,0 +1,3644 @@
+#--------------------------------------------------
+echo "QoS Policy Configuration"
+#--------------------------------------------------
+    qos
+        sap-ingress 11064 name "11064" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "64K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 11128 name "11128" create
+            queue 1 create
+                rate 128
+            exit
+            queue 3 create
+                parent "128K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 11192 name "11192" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "192K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 11256 name "11256" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "256K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 11384 name "11384" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "384K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 11512 name "11512" create
+            queue 1 create
+                rate 512
+            exit
+            queue 3 create
+                parent "512K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 11768 name "11768" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "768K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 12001 name "12001" create
+            description "Access Ingress-12001"
+            queue 1 create
+                rate 1024
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12002 name "12002" create
+            description "Access Ingress-12002"
+            queue 1 create
+                rate 2048
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12003 name "12003" create
+            queue 1 create
+                rate 3072
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12004 name "12004" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "4M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+            default-fc "af"
+        exit
+        sap-ingress 12005 name "12005" create
+            queue 1 create
+                rate 5120
+            exit
+            queue 3 create
+                parent "5M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+            default-fc "af"
+        exit
+        sap-ingress 12008 name "12008" create
+            queue 1 create
+                rate 8192
+            exit
+            queue 3 create
+                parent "8M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+            default-fc "af"
+        exit
+        sap-ingress 12010 name "12010" create
+            queue 1 create
+                rate 10240
+            exit
+            queue 3 create
+                parent "10M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+            default-fc "af"
+        exit
+        sap-ingress 12012 name "12012" create
+            queue 1 create
+                rate 12288
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12015 name "12015" create
+            queue 1 create
+                rate 15360
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12020 name "12020" create
+            queue 1 create
+                rate 20480
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12025 name "12025" create
+            queue 1 create
+                rate 25600
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12030 name "12030" create
+            queue 1 create
+                rate 30720
+            exit
+            queue 3 create
+                parent "30M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 12040 name "12040" create
+            queue 1 create
+                rate 40960
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12050 name "12050" create
+            queue 1 create
+                rate 51200
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12100 name "12100" create
+            queue 1 create
+                rate 102400
+            exit
+            queue 3 create
+                parent "100M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+            default-fc "af"
+        exit
+        sap-ingress 12150 name "12150" create
+            queue 1 create
+                rate 155000
+            exit
+            queue 11 multipoint create
+            exit
+        exit
+        sap-ingress 12500 name "12500" create
+            queue 1 create
+                rate 500000
+            exit
+            queue 3 create
+                parent "500M" level 2
+                rate 500000 cir 500000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 5 fc "ef"
+            prec 5 fc "ef"
+            default-fc "af"
+        exit
+        sap-ingress 14001 name "14001" create
+            description "Broadband_GOLD_1M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 1000 cir 1000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14002 name "14002" create
+            description "Broadband_GOLD_2M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 2000 cir 2000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14003 name "14003" create
+            description "Broadband_GOLD_3M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 3000 cir 3000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14004 name "14004" create
+            description "Broadband_GOLD_4M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 4000 cir 4000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14005 name "14005" create
+            description "Broadband_GOLD_5M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 5000 cir 5000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14006 name "14006" create
+            description "Broadband_GOLD_6M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 6000 cir 6000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14007 name "14007" create
+            description "Broadband_GOLD_7M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 7000 cir 7000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14008 name "14008" create
+            description "Broadband_GOLD_8M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 8000 cir 8000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14009 name "14009" create
+            description "Broadband_GOLD_9M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 9000 cir 9000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14010 name "14010" create
+            description "Broadband_GOLD_10M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 10000 cir 10000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14015 name "14015" create
+            description "Broadband_GOLD_15M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 15000 cir 15000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14020 name "14020" create
+            description "Broadband_GOLD_20M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 20000 cir 20000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14030 name "14030" create
+            description "Broadband_GOLD_30M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 30000 cir 30000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14040 name "14040" create
+            description "Broadband_GOLD_40M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 40000 cir 40000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14050 name "14050" create
+            description "Broadband_GOLD_50M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 50000 cir 50000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14060 name "14060" create
+            description "Broadband_GOLD_60M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 60000 cir 60000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14070 name "14070" create
+            description "Broadband_GOLD_70M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 70000 cir 70000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14080 name "14080" create
+            description "Broadband_GOLD_80M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 80000 cir 80000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14090 name "14090" create
+            description "Broadband_GOLD_90M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 90000 cir 90000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 14100 name "14100" create
+            description "Broadband_GOLD_100M"
+            queue 1 create
+            exit
+            queue 3 create
+                rate 100000 cir 100000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 21064 name "21064" create
+            queue 1 create
+                parent "64K"
+                rate max cir 20
+            exit
+            queue 2 create
+                parent "64K" level 2
+                rate 27 cir 27
+            exit
+            queue 3 create
+                parent "64K" level 3
+                rate 20 cir 20
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 21128 name "21128" create
+            queue 1 create
+                parent "128K"
+                rate max cir 40
+            exit
+            queue 2 create
+                parent "128K" level 2
+                rate 54 cir 54
+            exit
+            queue 3 create
+                parent "128K" level 3
+                rate 40 cir 40
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 21192 name "21192" create
+            queue 1 create
+                parent "192K"
+                rate max cir 58
+            exit
+            queue 2 create
+                parent "192K" level 2
+                rate 77 cir 77
+            exit
+            queue 3 create
+                parent "192K" level 3
+                rate 58 cir 58
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 21256 name "21256" create
+            queue 1 create
+                parent "256K"
+                rate max cir 78
+            exit
+            queue 2 create
+                parent "256K" level 2
+                rate 103 cir 103
+            exit
+            queue 3 create
+                parent "256K" level 3
+                rate 78 cir 78
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 21384 name "21384" create
+            queue 1 create
+                parent "384K"
+                rate max cir 116
+            exit
+            queue 2 create
+                parent "384K" level 2
+                rate 154 cir 154
+            exit
+            queue 3 create
+                parent "384K" level 3
+                rate 116 cir 116
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 21512 name "21512" create
+            queue 1 create
+                parent "512K"
+                rate max cir 154
+            exit
+            queue 2 create
+                parent "512K" level 2
+                rate 205 cir 205
+            exit
+            queue 3 create
+                parent "512K" level 3
+                rate 154 cir 154
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 21768 name "21768" create
+            queue 1 create
+                parent "768K"
+                rate max cir 231
+            exit
+            queue 2 create
+                parent "768K" level 2
+                rate 308 cir 308
+            exit
+            queue 3 create
+                parent "768K" level 3
+                rate 231 cir 231
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 22001 name "22001" create
+            queue 1 create
+                parent "1M"
+                rate max cir 300
+            exit
+            queue 2 create
+                parent "1M" level 2
+                rate 400 cir 400
+            exit
+            queue 3 create
+                parent "1M" level 3
+                rate 300 cir 300
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 22002 name "22002" create
+            queue 1 create
+                parent "2M"
+                rate max cir 600
+            exit
+            queue 2 create
+                parent "2M" level 2
+                rate 800 cir 800
+            exit
+            queue 3 create
+                parent "2M" level 3
+                rate 600 cir 600
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 22004 name "22004" create
+            queue 1 create
+                parent "4M"
+                rate max cir 1200
+            exit
+            queue 2 create
+                parent "4M" level 2
+                rate 1600 cir 1600
+            exit
+            queue 3 create
+                parent "4M" level 3
+                rate 1200 cir 1200
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 22008 name "22008" create
+            queue 1 create
+                parent "8M"
+                rate max cir 2400
+            exit
+            queue 2 create
+                parent "8M" level 2
+                rate 3200 cir 3200
+            exit
+            queue 3 create
+                parent "8M" level 3
+                rate 2400 cir 2400
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 22010 name "22010" create
+            queue 1 create
+                parent "10M"
+                rate max cir 3000
+            exit
+            queue 2 create
+                parent "10M" level 2
+                rate 4000 cir 4000
+            exit
+            queue 3 create
+                parent "10M" level 3
+                rate 3000 cir 3000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 22100 name "22100" create
+            queue 1 create
+                parent "100M"
+                rate max cir 30000
+            exit
+            queue 2 create
+                parent "100M" level 2
+                rate 40000 cir 40000
+            exit
+            queue 3 create
+                parent "100M" level 3
+                rate 30000 cir 30000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            fc "ef" create
+                queue 3
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            dot1p 5 fc "ef"
+            prec 0 fc "be"
+            prec 2 fc "af"
+            prec 5 fc "ef"
+        exit
+        sap-ingress 30001 name "30001" create
+            description "Voice Signaling"
+            queue 1 create
+            exit
+            queue 7 create
+                rate max cir 50000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "h1" create
+                queue 7
+            exit
+            default-fc "h1"
+        exit
+        sap-ingress 30002 name "30002" create
+            description "Network OAM"
+            queue 1 create
+            exit
+            queue 7 create
+                rate max cir 50000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "h1" create
+                queue 7
+            exit
+            default-fc "h1"
+        exit
+        sap-ingress 30003 name "30003" create
+            description "Voice_bearer_SIP_Phone"
+            queue 1 create
+            exit
+            queue 6 create
+                rate max cir 200000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "ef" create
+                queue 6
+            exit
+            default-fc "ef"
+        exit
+        sap-ingress 30004 name "30004" create
+            description "BTV_multicast"
+            queue 1 create
+            exit
+            queue 11 multipoint create
+            exit
+            queue 13 create
+                rate max cir 500000
+            exit
+            fc "h2" create
+                queue 13
+            exit
+            default-fc "h2"
+        exit
+        sap-ingress 30005 name "30005" create
+            description "VoD_unicast"
+            queue 1 create
+            exit
+            queue 5 create
+                rate max cir 250000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "h2" create
+                queue 5
+            exit
+            default-fc "h2"
+        exit
+        sap-ingress 30006 name "30006" create
+            description "BroadbandREGULER(BE)"
+            queue 1 create
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+        exit
+        sap-ingress 31064 name "31064" create
+            queue 1 create
+                parent "64K"
+                rate max cir 20
+            exit
+            queue 2 create
+                parent "64K" level 2
+                rate 45 cir 45
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 31128 name "31128" create
+            queue 1 create
+                parent "128K"
+                rate max cir 40
+            exit
+            queue 2 create
+                parent "128K" level 2
+                rate 90 cir 90
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 31192 name "31192" create
+            queue 1 create
+                parent "192K"
+                rate max cir 58
+            exit
+            queue 2 create
+                parent "192K" level 2
+                rate 135 cir 135
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 31256 name "31256" create
+            queue 1 create
+                parent "256K"
+                rate max cir 78
+            exit
+            queue 2 create
+                parent "256K" level 2
+                rate 180 cir 180
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 31384 name "31384" create
+            queue 1 create
+                parent "384K"
+                rate max cir 116
+            exit
+            queue 2 create
+                parent "384K" level 2
+                rate 269 cir 269
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 31512 name "31512" create
+            queue 1 create
+                parent "512K"
+                rate max cir 154
+            exit
+            queue 2 create
+                parent "512K" level 2
+                rate 359 cir 359
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 31768 name "31768" create
+            queue 1 create
+                parent "768K"
+                rate max cir 231
+            exit
+            queue 2 create
+                parent "768K" level 2
+                rate 538 cir 538
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 32001 name "32001" create
+            queue 1 create
+                parent "1M"
+                rate max cir 300
+            exit
+            queue 2 create
+                parent "1M" level 2
+                rate 700 cir 700
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 32002 name "32002" create
+            queue 1 create
+                parent "2M"
+                rate max cir 600
+            exit
+            queue 2 create
+                parent "2M" level 2
+                rate 1400 cir 1400
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 32004 name "32004" create
+            queue 1 create
+                parent "4M"
+                rate max cir 1200
+            exit
+            queue 2 create
+                parent "4M" level 2
+                rate 2800 cir 2800
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 32008 name "32008" create
+            queue 1 create
+                parent "8M"
+                rate max cir 2400
+            exit
+            queue 2 create
+                parent "8M" level 2
+                rate 5600 cir 5600
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 32010 name "32010" create
+            queue 1 create
+                parent "10M"
+                rate max cir 3000
+            exit
+            queue 2 create
+                parent "10M" level 2
+                rate 7000 cir 7000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 32100 name "32100" create
+            queue 1 create
+                parent "100M"
+                rate max cir 30000
+            exit
+            queue 2 create
+                parent "100M" level 2
+                rate 70000 cir 70000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 41064 name "41064" create
+            queue 1 create
+                parent "64K"
+                rate max cir 45
+            exit
+            queue 2 create
+                parent "64K" level 2
+                rate 20 cir 20
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 41128 name "41128" create
+            queue 1 create
+                parent "128K"
+                rate max cir 90
+            exit
+            queue 2 create
+                parent "128K" level 2
+                rate 40 cir 40
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 41192 name "41192" create
+            queue 1 create
+                parent "192K"
+                rate max cir 135
+            exit
+            queue 2 create
+                parent "192K" level 2
+                rate 58 cir 58
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 41256 name "41256" create
+            queue 1 create
+                parent "256K"
+                rate max cir 180
+            exit
+            queue 2 create
+                parent "256K" level 2
+                rate 78 cir 78
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 41384 name "41384" create
+            queue 1 create
+                parent "384K"
+                rate max cir 269
+            exit
+            queue 2 create
+                parent "384K" level 2
+                rate 116 cir 116
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 41512 name "41512" create
+            queue 1 create
+                parent "512K"
+                rate max cir 359
+            exit
+            queue 2 create
+                parent "512K" level 2
+                rate 154 cir 154
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 41768 name "41768" create
+            queue 1 create
+                parent "768K"
+                rate max cir 538
+            exit
+            queue 2 create
+                parent "768K" level 2
+                rate 231 cir 231
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 42001 name "42001" create
+            queue 1 create
+                parent "1M"
+                rate max cir 700
+            exit
+            queue 2 create
+                parent "1M" level 2
+                rate 300 cir 300
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 42002 name "42002" create
+            queue 1 create
+                parent "2M"
+                rate max cir 1400
+            exit
+            queue 2 create
+                parent "2M" level 2
+                rate 600 cir 600
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 42004 name "42004" create
+            queue 1 create
+                parent "4M"
+                rate max cir 2800
+            exit
+            queue 2 create
+                parent "4M" level 2
+                rate 1200 cir 1200
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 42008 name "42008" create
+            queue 1 create
+                parent "8M"
+                rate max cir 5600
+            exit
+            queue 2 create
+                parent "8M" level 2
+                rate 2400 cir 2400
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 42010 name "42010" create
+            queue 1 create
+                parent "10M"
+                rate max cir 7000
+            exit
+            queue 2 create
+                parent "10M" level 2
+                rate 3000 cir 3000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 42100 name "42100" create
+            queue 1 create
+                parent "100M"
+                rate max cir 70000
+            exit
+            queue 2 create
+                parent "100M" level 2
+                rate 30000 cir 30000
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            dot1p 2 fc "af"
+            prec 0 fc "be"
+            prec 2 fc "af"
+        exit
+        sap-ingress 51064 name "51064" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "64K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 51128 name "51128" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "128K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 51192 name "51192" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "192K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 51256 name "51256" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "256K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 51384 name "51384" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "384K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 51512 name "51512" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "512K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 51768 name "51768" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "768K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 52001 name "52001" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "1M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 52002 name "52002" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "2M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 52004 name "52004" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "4M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 52008 name "52008" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "8M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 52010 name "52010" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "10M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 52100 name "52100" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "100M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "af" create
+                queue 2
+            exit
+            dot1p 2 fc "af"
+            prec 2 fc "af"
+        exit
+        sap-ingress 61064 name "61064" create
+            queue 1 create
+                parent "64K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 61128 name "61128" create
+            queue 1 create
+                parent "128K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 61192 name "61192" create
+            queue 1 create
+                parent "192K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 61256 name "61256" create
+            queue 1 create
+                parent "256K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 61384 name "61384" create
+            queue 1 create
+                parent "384K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 61512 name "61512" create
+            queue 1 create
+                parent "512K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 61768 name "61768" create
+            queue 1 create
+                parent "768K" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 62001 name "62001" create
+            queue 1 create
+                parent "1M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 62002 name "62002" create
+            queue 1 create
+                parent "2M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 62004 name "62004" create
+            queue 1 create
+                parent "4M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 62008 name "62008" create
+            queue 1 create
+                parent "8M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 62010 name "62010" create
+            queue 1 create
+                parent "10M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-ingress 62100 name "62100" create
+            queue 1 create
+                parent "100M" level 2
+                rate max cir max
+            exit
+            queue 11 multipoint create
+            exit
+            fc "be" create
+                queue 1
+            exit
+            dot1p 0 fc "be"
+            prec 0 fc "be"
+        exit
+        sap-egress 11064 name "11064" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "64K" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 11128 name "11128" create
+            queue 1 create
+                rate 128
+            exit
+            queue 3 create
+                parent "128K" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 11192 name "11192" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "192K" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 11256 name "11256" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "256K" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 11384 name "11384" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "384K" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 11512 name "11512" create
+            queue 1 create
+                rate 512
+            exit
+            queue 3 create
+                parent "512K" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 11768 name "11768" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "768K" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 12001 name "12001" create
+            description "Access Egress-12001"
+            queue 1 create
+                rate 1024
+            exit
+            queue 3 create
+                parent "1M" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 12002 name "12002" create
+            queue 1 create
+                rate 2048
+            exit
+            queue 3 create
+                parent "2M" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 12003 name "12003" create
+            queue 1 create
+                rate 3072
+            exit
+        exit
+        sap-egress 12004 name "12004" create
+            queue 1 create
+            exit
+            queue 3 create
+                parent "4M" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 12005 name "12005" create
+            queue 1 create
+                rate 5120
+            exit
+            queue 3 create
+                parent "5M" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 12008 name "12008" create
+            queue 1 create
+                rate 8192
+            exit
+            queue 3 create
+                parent "8M" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 12010 name "12010" create
+            queue 1 create
+                rate 10240
+            exit
+            queue 3 create
+                parent "10M" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 12012 name "12012" create
+            queue 1 create
+                rate 12288
+            exit
+        exit
+        sap-egress 12015 name "12015" create
+            queue 1 create
+                rate 15360
+            exit
+        exit
+        sap-egress 12020 name "12020" create
+            queue 1 create
+                rate 20480
+            exit
+        exit
+        sap-egress 12025 name "12025" create
+            queue 1 create
+                rate 25600
+            exit
+        exit
+        sap-egress 12030 name "12030" create
+            queue 1 create
+                rate 30720
+            exit
+            queue 3 create
+                parent "30M" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 12040 name "12040" create
+            queue 1 create
+                rate 40960
+            exit
+        exit
+        sap-egress 12050 name "12050" create
+            queue 1 create
+                rate 51200
+            exit
+        exit
+        sap-egress 12100 name "12100" create
+            queue 1 create
+                rate 102400
+            exit
+            queue 3 create
+                parent "100M" level 2
+                rate max cir max
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 12150 name "12150" create
+            queue 1 create
+                rate 155000
+            exit
+        exit
+        sap-egress 12500 name "12500" create
+            queue 1 create
+                rate 500000
+            exit
+            queue 3 create
+                parent "500M" level 2
+                rate 500000 cir 500000
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 14001 name "14001" create
+            description "Broadband_GOLD_1M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 1000 cir 1000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14002 name "14002" create
+            description "Broadband_GOLD_2M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 2000 cir 2000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14003 name "14003" create
+            description "Broadband_GOLD_3M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 3000 cir 3000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14004 name "14004" create
+            description "Broadband_GOLD_4M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 4000 cir 4000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14005 name "14005" create
+            description "Broadband_GOLD_5M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 5000 cir 5000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14006 name "14006" create
+            description "Broadband_GOLD_6M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 6000 cir 6000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14007 name "14007" create
+            description "Broadband_GOLD_7M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 7000 cir 7000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14008 name "14008" create
+            description "Broadband_GOLD_8M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 8000 cir 8000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14009 name "14009" create
+            description "Broadband_GOLD_9M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 9000 cir 9000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14010 name "14010" create
+            description "Broadband_GOLD_10M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 10000 cir 10000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14015 name "14015" create
+            description "Broadband_GOLD_15M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 15000 cir 15000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14020 name "14020" create
+            description "Broadband_GOLD_20M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 20000 cir 20000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14030 name "14030" create
+            description "Broadband_GOLD_30M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 30000 cir 30000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14040 name "14040" create
+            description "Broadband_GOLD_40M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 40000 cir 40000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14050 name "14050" create
+            description "Broadband_GOLD_50M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 50000 cir 50000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14060 name "14060" create
+            description "Broadband_GOLD_60M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 60000 cir 60000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14070 name "14070" create
+            description "Broadband_GOLD_70M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 70000 cir 70000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14080 name "14080" create
+            description "Broadband_GOLD_80M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 80000 cir 80000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14090 name "14090" create
+            description "Broadband_GOLD_90M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 90000 cir 90000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 14100 name "14100" create
+            description "Broadband_GOLD_100M"
+            queue 1 create
+            exit
+            queue 3 create
+                parent "S_GOLD"
+                rate 100000 cir 100000
+            exit
+            fc ef create
+                queue 3
+            exit
+        exit
+        sap-egress 21064 name "21064" create
+            queue 1 create
+                parent "64K"
+                rate max cir 20
+            exit
+            queue 2 create
+                parent "64K" level 2
+                rate 27 cir 27
+            exit
+            queue 3 create
+                parent "64K" level 3
+                rate 20 cir 20
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 21128 name "21128" create
+            queue 1 create
+                parent "128K"
+                rate max cir 40
+            exit
+            queue 2 create
+                parent "128K" level 2
+                rate 54 cir 54
+            exit
+            queue 3 create
+                parent "128K" level 3
+                rate 40 cir 40
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 21192 name "21192" create
+            queue 1 create
+                parent "192K"
+                rate max cir 58
+            exit
+            queue 2 create
+                parent "192K" level 2
+                rate 77 cir 77
+            exit
+            queue 3 create
+                parent "192K" level 3
+                rate 58 cir 58
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 21256 name "21256" create
+            queue 1 create
+                parent "256K"
+                rate max cir 78
+            exit
+            queue 2 create
+                parent "256K" level 2
+                rate 103 cir 103
+            exit
+            queue 3 create
+                parent "256K" level 3
+                rate 78 cir 78
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 21384 name "21384" create
+            queue 1 create
+                parent "384K"
+                rate max cir 116
+            exit
+            queue 2 create
+                parent "384K" level 2
+                rate 154 cir 154
+            exit
+            queue 3 create
+                parent "384K" level 3
+                rate 116 cir 116
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 21512 name "21512" create
+            queue 1 create
+                parent "512K"
+                rate max cir 154
+            exit
+            queue 2 create
+                parent "512K" level 2
+                rate 205 cir 205
+            exit
+            queue 3 create
+                parent "512K" level 3
+                rate 154 cir 154
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 21768 name "21768" create
+            queue 1 create
+                parent "768K"
+                rate max cir 231
+            exit
+            queue 2 create
+                parent "768K" level 2
+                rate 308 cir 308
+            exit
+            queue 3 create
+                parent "768K" level 3
+                rate 231 cir 231
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 22001 name "22001" create
+            queue 1 create
+                parent "1M"
+                rate max cir 300
+            exit
+            queue 2 create
+                parent "1M" level 2
+                rate 400 cir 400
+            exit
+            queue 3 create
+                parent "1M" level 3
+                rate 300 cir 300
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 22002 name "22002" create
+            queue 1 create
+                parent "2M"
+                rate max cir 600
+            exit
+            queue 2 create
+                parent "2M" level 2
+                rate 800 cir 800
+            exit
+            queue 3 create
+                parent "2M" level 3
+                rate 600 cir 600
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 22004 name "22004" create
+            queue 1 create
+                parent "4M"
+                rate max cir 1200
+            exit
+            queue 2 create
+                parent "4M" level 2
+                rate 1600 cir 1600
+            exit
+            queue 3 create
+                parent "4M" level 3
+                rate 1200 cir 1200
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 22008 name "22008" create
+            queue 1 create
+                parent "8M"
+                rate max cir 2400
+            exit
+            queue 2 create
+                parent "8M" level 2
+                rate 3200 cir 3200
+            exit
+            queue 3 create
+                parent "8M" level 3
+                rate 2400 cir 2400
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 22010 name "22010" create
+            queue 1 create
+                parent "10M"
+                rate max cir 3000
+            exit
+            queue 2 create
+                parent "10M" level 2
+                rate 4000 cir 4000
+            exit
+            queue 3 create
+                parent "10M" level 3
+                rate 3000 cir 3000
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 22100 name "22100" create
+            queue 1 create
+                parent "100M"
+                rate max cir 30000
+            exit
+            queue 2 create
+                parent "100M" level 2
+                rate 40000 cir 40000
+            exit
+            queue 3 create
+                parent "100M" level 3
+                rate 30000 cir 30000
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+            fc ef create
+                queue 3
+                dot1p 5
+            exit
+        exit
+        sap-egress 30001 name "30001" create
+            description "Voice Signaling"
+            queue 1 create
+            exit
+            queue 7 create
+                parent "SIG"
+                rate max cir 50000
+            exit
+            fc h1 create
+                queue 7
+            exit
+        exit
+        sap-egress 30002 name "30002" create
+            description "Network OAM"
+            queue 1 create
+            exit
+            queue 7 create
+                parent "OAM"
+                rate max cir 50000
+            exit
+            fc h1 create
+                queue 7
+            exit
+        exit
+        sap-egress 30003 name "30003" create
+            description "Voice_bearer_SIP_Phone"
+            queue 1 create
+            exit
+            queue 6 create
+                parent "VOICE"
+                rate max cir 200000
+            exit
+            fc ef create
+                queue 6
+            exit
+        exit
+        sap-egress 30004 name "30004" create
+            description "BTV_multicast"
+            queue 1 create
+            exit
+            queue 5 create
+                parent "BTV"
+                rate max cir 500000
+            exit
+            fc h2 create
+                queue 5
+            exit
+        exit
+        sap-egress 30005 name "30005" create
+            description "VoD_unicast"
+            queue 1 create
+            exit
+            queue 5 create
+                parent "VOD"
+                rate max cir 250000
+            exit
+            fc h2 create
+                queue 5
+            exit
+        exit
+        sap-egress 30006 name "30006" create
+            description "BroadbandREGULER(BE)"
+            queue 1 create
+                parent "S_REG"
+            exit
+            fc be create
+                queue 1
+            exit
+        exit
+        sap-egress 31064 name "31064" create
+            queue 1 create
+                parent "64K"
+                rate max cir 20
+            exit
+            queue 2 create
+                parent "64K" level 2
+                rate 45 cir 45
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 31128 name "31128" create
+            queue 1 create
+                parent "128K"
+                rate max cir 40
+            exit
+            queue 2 create
+                parent "128K" level 2
+                rate 90 cir 90
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 31192 name "31192" create
+            queue 1 create
+                parent "192K"
+                rate max cir 58
+            exit
+            queue 2 create
+                parent "192K" level 2
+                rate 135 cir 135
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 31256 name "31256" create
+            queue 1 create
+                parent "256K"
+                rate max cir 78
+            exit
+            queue 2 create
+                parent "256K" level 2
+                rate 180 cir 180
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 31384 name "31384" create
+            queue 1 create
+                parent "384K"
+                rate max cir 116
+            exit
+            queue 2 create
+                parent "384K" level 2
+                rate 269 cir 269
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 31512 name "31512" create
+            queue 1 create
+                parent "512K"
+                rate max cir 154
+            exit
+            queue 2 create
+                parent "512K" level 2
+                rate 359 cir 359
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 31768 name "31768" create
+            queue 1 create
+                parent "768K"
+                rate max cir 231
+            exit
+            queue 2 create
+                parent "768K" level 2
+                rate 538 cir 538
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 32001 name "32001" create
+            queue 1 create
+                parent "1M"
+                rate max cir 300
+            exit
+            queue 2 create
+                parent "1M" level 2
+                rate 700 cir 700
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 32002 name "32002" create
+            queue 1 create
+                parent "2M"
+                rate max cir 600
+            exit
+            queue 2 create
+                parent "2M" level 2
+                rate 1400 cir 1400
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 32004 name "32004" create
+            queue 1 create
+                parent "4M"
+                rate max cir 1200
+            exit
+            queue 2 create
+                parent "4M" level 2
+                rate 2800 cir 2800
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 32008 name "32008" create
+            queue 1 create
+                parent "8M"
+                rate max cir 2400
+            exit
+            queue 2 create
+                parent "8M" level 2
+                rate 5600 cir 5600
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 32010 name "32010" create
+            queue 1 create
+                parent "10M"
+                rate max cir 3000
+            exit
+            queue 2 create
+                parent "10M" level 2
+                rate 7000 cir 7000
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 32100 name "32100" create
+            queue 1 create
+                parent "100M"
+                rate max cir 30000
+            exit
+            queue 2 create
+                parent "100M" level 2
+                rate 70000 cir 70000
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 41064 name "41064" create
+            queue 1 create
+                parent "64K"
+                rate max cir 45
+            exit
+            queue 2 create
+                parent "64K" level 2
+                rate 20 cir 20
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 41128 name "41128" create
+            queue 1 create
+                parent "128K"
+                rate max cir 90
+            exit
+            queue 2 create
+                parent "128K" level 2
+                rate 40 cir 40
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 41192 name "41192" create
+            queue 1 create
+                parent "192K"
+                rate max cir 135
+            exit
+            queue 2 create
+                parent "192K" level 2
+                rate 58 cir 58
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 41256 name "41256" create
+            queue 1 create
+                parent "256K"
+                rate max cir 180
+            exit
+            queue 2 create
+                parent "256K" level 2
+                rate 78 cir 78
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 41384 name "41384" create
+            queue 1 create
+                parent "384K"
+                rate max cir 269
+            exit
+            queue 2 create
+                parent "384K" level 2
+                rate 116 cir 116
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 41512 name "41512" create
+            queue 1 create
+                parent "512K"
+                rate max cir 359
+            exit
+            queue 2 create
+                parent "512K" level 2
+                rate 154 cir 154
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 41768 name "41768" create
+            queue 1 create
+                parent "768K"
+                rate max cir 538
+            exit
+            queue 2 create
+                parent "768K" level 2
+                rate 231 cir 231
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 42001 name "42001" create
+            queue 1 create
+                parent "1M"
+                rate max cir 700
+            exit
+            queue 2 create
+                parent "1M" level 2
+                rate 300 cir 300
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 42002 name "42002" create
+            queue 1 create
+                parent "2M"
+                rate max cir 1400
+            exit
+            queue 2 create
+                parent "2M" level 2
+                rate 600 cir 600
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 42004 name "42004" create
+            queue 1 create
+                parent "4M"
+                rate max cir 2800
+            exit
+            queue 2 create
+                parent "4M" level 2
+                rate 1200 cir 1200
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 42008 name "42008" create
+            queue 1 create
+                parent "8M"
+                rate max cir 5600
+            exit
+            queue 2 create
+                parent "8M" level 2
+                rate 2400 cir 2400
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 42010 name "42010" create
+            queue 1 create
+                parent "10M"
+                rate max cir 7000
+            exit
+            queue 2 create
+                parent "10M" level 2
+                rate 3000 cir 3000
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 42100 name "42100" create
+            queue 1 create
+                parent "100M"
+                rate max cir 70000
+            exit
+            queue 2 create
+                parent "100M" level 2
+                rate 30000 cir 30000
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 51064 name "51064" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "64K" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 51128 name "51128" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "128K" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 51192 name "51192" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "192K" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 51256 name "51256" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "256K" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 51384 name "51384" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "384K" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 51512 name "51512" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "512K" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 51768 name "51768" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "768K" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 52001 name "52001" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "1M" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 52002 name "52002" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "2M" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 52004 name "52004" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "4M" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 52008 name "52008" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "8M" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 52010 name "52010" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "10M" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 52100 name "52100" create
+            queue 1 create
+            exit
+            queue 2 create
+                parent "100M" level 2
+                rate max cir max
+            exit
+            fc af create
+                queue 2
+                dot1p 2
+            exit
+        exit
+        sap-egress 61064 name "61064" create
+            queue 1 create
+                parent "64K" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 61128 name "61128" create
+            queue 1 create
+                parent "128K" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 61192 name "61192" create
+            queue 1 create
+                parent "192K" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 61256 name "61256" create
+            queue 1 create
+                parent "256K" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 61384 name "61384" create
+            queue 1 create
+                parent "384K" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 61512 name "61512" create
+            queue 1 create
+                parent "512K" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 61768 name "61768" create
+            queue 1 create
+                parent "768K" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 62001 name "62001" create
+            queue 1 create
+                parent "1M" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 62002 name "62002" create
+            queue 1 create
+                parent "2M" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 62004 name "62004" create
+            queue 1 create
+                parent "4M" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 62008 name "62008" create
+            queue 1 create
+                parent "8M" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 62010 name "62010" create
+            queue 1 create
+                parent "10M" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+        sap-egress 62100 name "62100" create
+            queue 1 create
+                parent "100M" level 2
+                rate max cir max
+            exit
+            fc be create
+                queue 1
+                dot1p 0
+            exit
+        exit
+    exit

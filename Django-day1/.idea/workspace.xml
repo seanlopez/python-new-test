@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34b4cd32-b368-44a3-9178-55afc064237e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Corountine/Coro1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Corountine/Gevent_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Corountine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/request1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/ISE_Conf.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/ISE_endpoint_upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/SSH_IOS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/arp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/asaconfiguration.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/bs4_study/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/bs4_study/bs_stu_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/configure_file_ASA.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/configure_file_switch.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/csv_rw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/load_write.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/python-nornir-testing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/requests_study/Requests_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/requests_study/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/requests_study/douban.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/requests_study/request_bs4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/ssh_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/switchconfiguration.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/xml_study/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/xml_study/ip.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/xml_study/xpath_dev1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/xml_study/xpath_usecase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/study/yaml_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Devnet/sys_argv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thefirstproject/thefirstproject/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thefirstproject/thefirstproject/pages/frontpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thefirstproject/thefirstproject/pages/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thefirstproject/thefirstproject/pages/page1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/API_Generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/FMC-API-Learn/Get_All_Policies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/FMC-API-Learn/Get_Edit_Specific_Policy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/FMC-API-Learn/Get_Network_Object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/FMC-API-Learn/Post_Network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/FMC-API-Learn/Request_Token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/FMC-API-Learn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/FMC-API-Learn/create_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/FMC-API-Learn/fmc_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/externaltrustnetwork.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/internaltrusthost.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FMC/internaltrustnetwork.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HankerRank/hk_30_tried/2D_new_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HankerRank/hk_30_tried/RE_zhengxiang_fanxiang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HankerRank/hk_30_tried/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HankerRank/hk_30_tried/binary_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HankerRank/hk_30_tried/exce_test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HankerRank/hk_30_tried/link_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HankerRank/hk_30_tried/packet_header.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HankerRank/hk_30_tried/the_dic_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HankerRank/ping-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ISE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ISE_API/Get_ISE_IP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ISE_API/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Obj_py/cisco_command_config/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Obj_py/cisco_command_config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Obj_py/cisco_command_config/com_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Obj_py/easy_test/args_kwargs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/Emitting_log_receive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/Emitting_log_send.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/RA_recevie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/RA_send.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/RPC_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/RPC_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SP_auto_separate/configure_separate/ME-D6-MLK.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SP_auto_separate/configure_separate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SP_auto_separate/configure_separate/file_reader_BK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SP_auto_separate/configure_separate/file_reader_sep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SP_auto_separate/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Telegram_Projects/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Telegram_Projects/stustu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Telegram_Projects/stustu/get_start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ise-session-reauth/day1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ise-session-reauth/day1/api-tester.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ise-session-reauth/day1/auto_coa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ise-session-reauth/day1/deployment_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ise-session-reauth/day1/ise_api_jinja.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ise-session-reauth/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jinja2_testbed/day1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jinja2_testbed/day1/jinja2_render.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jinja2_testbed/template/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jinja2_testbed/template/testbed.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mango_py/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mango_py/mango_py_sp/ConnectionDBInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mango_py/mango_py_sp/MongoConnection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mango_py/mango_py_sp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mango_py/mango_py_sp/mango_warm_up.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mango_py/mango_py_sp/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu_process/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu_process/easy_mupro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu_process/mu_pro_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mu_process/process_pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql/mysql_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql/sqlorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/Live_chat/LC_App.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/Live_chat/LC_App2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/Live_chat/LC_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/Live_chat/LC_client1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/Live_chat/LC_client_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/Live_chat/LC_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/Live_chat/LC_server_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/Live_chat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/easy_socket/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/easy_socket/easy_connect_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/easy_socket/esay_connect_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/easy_socket/基础socket.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/ftp_server/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/ftp_server/ftp_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/ftp_server/ftp_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/socketserver_pkt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net_socket/socketserver_pkt/sk_server_test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/PT_Telkom_Master_Sheet - Copy.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/PT_Telkom_Master_Sheet.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/master_sheet_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/mongo_db_operation/ConnectionDBInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/mongo_db_operation/MongoConnection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/mongo_db_operation/MongoOperation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/mongo_db_operation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/nokia_data_insert_all_in_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/master_sheet_edit/section_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/stustu/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/stustu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/stustu/PLDT_Automation.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/stustu/PLDT_OUTPUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/stustu/bulk_insert_sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/stustu/free_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/stustu/limitationtest.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/stustu/testplatform.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/stustu/testplatform_BK.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/_cbson.cp39-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/codec_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/dbref.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/decimal128.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/int64.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/json_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/max_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/min_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/objectid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/py3compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/raw_bson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/regex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/son.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/timestamp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/bson/tz_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/gridfs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/gridfs/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/gridfs/grid_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo-3.11.4.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo-3.11.4.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo-3.11.4.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo-3.11.4.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo-3.11.4.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo-3.11.4.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo-3.11.4.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/_cmessage.cp39-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/aggregation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/auth_aws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/bulk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/change_stream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/client_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/client_session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/collation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/command_cursor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/compression_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/cursor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/cursor_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/daemon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/driver_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/encryption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/encryption_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/event_loggers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/ismaster.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/max_staleness_selectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/mongo_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/mongo_replica_set_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/monitoring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/monotonic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/ocsp_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/ocsp_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/periodic_executor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/pool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/pyopenssl_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/read_concern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/read_preferences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/saslprep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/server_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/server_selectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/server_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/socket_checker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/son_manipulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/srv_resolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/ssl_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/ssl_match_hostname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/ssl_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/thread_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/topology.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/topology_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/uri_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/pymongo/write_concern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm-4.61.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm-4.61.0.dist-info/LICENCE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm-4.61.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm-4.61.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm-4.61.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm-4.61.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm-4.61.0.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm-4.61.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/_dist_ver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/_tqdm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/_tqdm_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/_tqdm_notebook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/_tqdm_pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/asyncio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/autonotebook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/completion.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/contrib/bells.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/contrib/concurrent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/contrib/discord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/contrib/itertools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/contrib/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/contrib/telegram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/contrib/utils_worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/dask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/keras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/notebook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/rich.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/std.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/tk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/tqdm.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Lib/site-packages/tqdm/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../openpyxltest/venv/Scripts/tqdm.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pt_configuration_push_socket/pt_socket_client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pt_configuration_push_socket/pt_socket_client/client_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pt_configuration_push_socket/pt_socket_server/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pt_configuration_push_socket/pt_socket_server/server_initialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-nornir-test/Inventory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-nornir-test/Inventory/defaults.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-nornir-test/Inventory/groups.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-nornir-test/Inventory/hosts.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-nornir-test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-nornir-test/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py-nornir-test/nornir_test_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py_sec_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../py_sec_test/hash_md5_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pyatx_sean/day1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pyatx_sean/day1/code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pyatx_sean/day1/code/preforming/check_assessment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pyatx_sean/day1/code/preforming/pre_check_components.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pyatx_sean/day1/pyats_docker_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/config_commands.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/configuration_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/inventory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/inventory/defaults.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/inventory/groups.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/inventory/hosts.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/nornir_pushing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/yaml-handle/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_nornir_configuration_provision/day1/yaml-handle/yaml-creator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_ttp_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_ttp_test/raw_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_ttp_test/ttp1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_ttp_test/ttp_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading_test/Event_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading_test/Mythreading_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading_test/consumer_producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threading_test/easy_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tianyuan_dic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/python-new-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/python-new-code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HankerRank/execpt_test/Execpt_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HankerRank/execpt_test/Execpt_test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Obj_py/easy_test/基础.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Obj_py/easy_test/基础.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1vW4dDIQV8Uh7f5s8SZ3u2HqiaV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django_run_script" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.urls">
+    <configuration name="django-admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django-day1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Roaming/Python/Python39/site-packages/django/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Roaming/Python/Python39/site-packages/django/bin/django-admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="first" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django-day1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day1/first.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="frontpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django-day1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thefirstproject/thefirstproject/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thefirstproject/thefirstproject/pages/frontpage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Django-day1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django-day1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thefirstproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thefirstproject/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django-day1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/thefirstproject/thefirstproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thefirstproject/thefirstproject/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.urls" />
+        <item itemvalue="Python.frontpage" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.django-admin" />
+        <item itemvalue="Python.first" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34b4cd32-b368-44a3-9178-55afc064237e" name="Default Changelist" comment="" />
+      <created>1626664596323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626664596323</updated>
+      <workItem from="1626664597948" duration="2000" />
+      <workItem from="1626664619338" duration="738000" />
+      <workItem from="1626687749380" duration="594000" />
+      <workItem from="1626853034138" duration="963000" />
+      <workItem from="1626944499115" duration="4166000" />
+      <workItem from="1627347079773" duration="9526000" />
+      <workItem from="1627472028255" duration="5638000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Django_day1$frontpage.coverage" NAME="frontpage Coverage Results" MODIFIED="1627349317678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thefirstproject/thefirstproject/pages" />
+    <SUITE FILE_PATH="coverage/Django_day1$first.coverage" NAME="first Coverage Results" MODIFIED="1626945296563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day1" />
+    <SUITE FILE_PATH="coverage/Django_day1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1626962595285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thefirstproject" />
+    <SUITE FILE_PATH="coverage/Django_day1$django_admin.coverage" NAME="django-admin Coverage Results" MODIFIED="1626945931837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Roaming/Python/Python39/site-packages/django/bin" />
+    <SUITE FILE_PATH="coverage/Django_day1$urls.coverage" NAME="urls Coverage Results" MODIFIED="1627435656745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thefirstproject/thefirstproject" />
+  </component>
+</project>

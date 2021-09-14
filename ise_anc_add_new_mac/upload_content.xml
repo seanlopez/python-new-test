@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:operationAdditionalData xmlns:ns0="ers.ise.cisco.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <requestAdditionalAttributes>
+      <additionalAttribute name="macAddress" value="aa:bb:aa:dd:21:22"/>
+      <additionalAttribute name="policyName" value="QU"/>
+   </requestAdditionalAttributes>
+</ns0:operationAdditionalData>

@@ -1,0 +1,18 @@
+Application: ISE
+Basic_Conf:
+  - hostname: devnet_ISE
+    IP_Add: 10.1.1.1
+    domain_name: secteam.com
+  - Version:
+    - 1.1
+    - 1.2
+    - 3.0
+Application_Conf:
+  Policy_Set_Count: 19
+  Deployment_Type: Standalone
+
+Multipleline_Separation2: |
+  this line should be the first line
+  Second Line
+  Extra Line
+

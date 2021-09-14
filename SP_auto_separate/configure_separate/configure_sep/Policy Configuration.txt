@@ -1,0 +1,23 @@
+#--------------------------------------------------
+echo "Policy Configuration"
+#--------------------------------------------------
+        policy-options
+            begin
+            prefix-list "only-prefix32"
+                prefix 0.0.0.0/0 prefix-length-range 32-32
+            exit
+            policy-statement "import-only-host-addresses"
+                entry 10
+                    from
+                        prefix-list "only-prefix32"
+                    exit
+                    action accept
+                    exit
+                exit
+                default-action drop
+                exit
+            exit
+            commit
+        exit
+    exit
+

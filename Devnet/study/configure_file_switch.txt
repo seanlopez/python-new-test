@@ -1,0 +1,3 @@
+interface e0/2
+no shut
+ip add 2.2.2.2 255.255.255.0

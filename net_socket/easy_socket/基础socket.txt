@@ -1,0 +1,42 @@
+首先socket生命协议类型，这个协议类型也叫做  地址簇
+地址簇socket families：
+AF_UNIX   ： unix本机进程间的通信（通过pickle也可以）
+AF_INET  :  IPV4
+AF_INET6  :IPV6
+
+socket type：
+SOCK_STREAM   :  tcp
+SOCK_DGRAM   :  udp
+SOCK_RAW   :  原始套接字，无法处理icmp和igmp等网络报文，可以通过SOCK_RAW构建IP地址头，所以通过SOCK_RAW就可以伪造IP地址，并且实现dos攻击
+SOCK_RDM：保证数据块都传递，但是不能保证顺序
+
+
+
+
+
+
+连接过程伪代码：
+client端：
+socket.socket(famliy,type,proto)   //选择协议族和socket类型(还有一个参数proto默认为0即可)，默认不加任何参数就是ipv4协议族,并且面向连接
+                                     （默认为socket(AF_INET, SOCK_STREAM, 0)）
+socket.connect(addr)     //主动初始化tcp连接，addr参数为一个元组(hostname,port_num)
+（以上为client专用套接字）
+（以下为公共套接字）
+socket.send(string)   //主动发送tcp数据，该函数的返回值为string参数的字节数
+
+socket.recv(bufsize,flag)   //接受tcp数据，bufsize必须要指定，为接受最大字节数，flag可以忽略
+
+socket.sendto(string)   //主动发送的udp数据，其他的和send没啥区别
+
+socket.recvfrom()    //主动接受的udp数据，和recv()函数没啥区别
+
+socket.close()   //关闭套接字，无论客户端还是服务端，结尾都需要
+
+server端：
+socket.socket()
+socket.bind(addr)    //为服务端绑定一个ip地址和一个端口，同样是用(hostname, port_num)这个元组表示
+socket.listen(conn_num)   //开始tcp的监听，conn_num最小应该为1，表示监听一个客户端的连接，通常视之为5
+socket.accept()   //等待，并且接受客户端的连接，会有两个返回值，第一个为客户端的实例，第二个为客户端的地址元组信息
+
+
+

@@ -1,0 +1,11 @@
+interface g0/1
+switchport
+switchport mode trunk
+no shutdown
+!
+interface g0/2
+switchport
+switchport mode access
+switchport access vlan 10
+no shutdown
+!

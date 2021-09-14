@@ -1,0 +1,850 @@
+#--------------------------------------------------
+echo "Port Configuration"
+#--------------------------------------------------
+    port 1/1/1
+        description "TRUNK_ME-D6-MLK_1/1/1_TO_ME-D6-KBG_3/1/1_No:02_10G:VIA L2SW_No:2_SDW036_MUARALAWA"
+        ethernet
+            egress-scheduler-policy "10GPort"
+            lldp
+                dest-mac nearest-bridge
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-non-tpmr
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-customer
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+            exit
+            hold-time up 40 down 30
+        exit
+        no shutdown
+    exit
+    port 1/1/2
+        description "TRUNK_ME-D6-MLK_1/1/2_TO_ME-D6-BTON_1/3/1_No:01_10G Direct Core VIA OTB:51,52"
+        ethernet
+            egress-scheduler-policy "10GPort"
+            lldp
+                dest-mac nearest-bridge
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-non-tpmr
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-customer
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+            exit
+        exit
+        no shutdown
+    exit
+    port 1/1/3
+        description "AKSES_TSEL_SDW002_MELAK_SW10G_10.199.136.26"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            egress-scheduler-policy "10GPort"
+        exit
+        no shutdown
+    exit
+    port 1/1/4
+        description "AKSES_IPRAN_RAN-TSEL_ME-D6-MLK#1/1/4_4_ran-pag-melak.2#Te0/0/0_TO-SME-D6-SBB-TSEL#1/1/3_ran-agg-srinda.3#0/0/0/6"
+        ethernet
+            mode access
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 1/1/5
+        description "AKSES_TSEL_RNC_ran-pag-melak.2_Te0/0/0"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 1/1/6
+        description "Reserved BIG OLT FH C.Tel.13/UM 000/DR6-12730000/2020"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 1/1/7
+        shutdown
+        description "RESERVED_UPGRADE_UPLINK_OLT_GPON04-D6-MLA-4MRL"
+        ethernet
+        exit
+    exit
+    port 1/1/8
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/1/9
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/1/10
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/1
+        description "TRUNK_L3_ME-D6-MLK_1/4/1_TO_CES-D6-LKT_1/6/8_No:1_1G"
+        ethernet
+            mtu 2102
+            down-when-looped
+                no shutdown
+            exit
+            lldp
+                dest-mac nearest-bridge
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-non-tpmr
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-customer
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+            exit
+            hold-time up 40
+        exit
+        no shutdown
+    exit
+    port 1/4/2
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/3
+        description "TRUNK_ME-D6-MLK_1/4/3_TO_ME-D6-KBG_1/2/10:VIA_RADIO_CERAGON_PAIR_PORT_1/4/21"
+        ethernet
+            encap-type dot1q
+        exit
+        no shutdown
+    exit
+    port 1/4/4
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/5
+        description "AKSES TSEL_SDW036 MUARALAWA"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            egress-scheduler-policy "1GPort"
+        exit
+        no shutdown
+    exit
+    port 1/4/6
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/7
+        description "AKSES_TSEL_RNC_ran-pag-melak.1_Gi0/3/4"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            no autonegotiate
+        exit
+        no shutdown
+    exit
+    port 1/4/8
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/9
+        description "AKSES_TSEL_RNC_ran-pag-melak.1_Gi0/3/5"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            no autonegotiate
+        exit
+        no shutdown
+    exit
+    port 1/4/10
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/11
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/12
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/13
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/14
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/15
+        description "AKSES_GPON01-D6-MLA-5_172.20.167.6"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            no autonegotiate
+        exit
+        no shutdown
+    exit
+    port 1/4/16
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/17
+        description "AKSES_IPRAN_RAN-TSEL_ME-D6-MLK#1/4/17_0,6_ran-pag-melak.2#0/3/1_TO-ME-D6-TGG#1/1/2_ran-pag-bkbiru.2#0/0/1"
+        ethernet
+            mode access
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 1/4/18
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/19
+        description "AKSES_ME-D6-MLK/1/4/19_TO_L2-SW-FH-MLK_(10.63.0.112)"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 1/4/20
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/21
+        description "AKSES_to_PAIR PORT 1/4/3"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 1/4/22
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/23
+        description "AKSES_RADIO IP-20 PORT_2 MLK-M.PAHU"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 1/4/24
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/25
+        shutdown
+        description "AKSES_GPON03-D6-MLA-3MHU_(gei_1/4/1)_172.20.163.160_VIA-DWDM-LTI_0-14-9"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            egress-scheduler-policy "1GPort"
+            down-when-looped
+                no shutdown
+            exit
+            no autonegotiate
+        exit
+    exit
+    port 1/4/26
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/27
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/28
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/29
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/30
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/31
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/32
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/33
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/34
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/35
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/36
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/37
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/38
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/39
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/40
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/41
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/42
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/43
+        shutdown
+        ethernet
+        exit
+    exit
+    port 1/4/44
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/1/1
+        description "TRUNK_ME-D6-MLK_2/1/1_TO_ME-D6-BTON_1/1/1_No:02_10G"
+        ethernet
+            egress-scheduler-policy "10GPort"
+            lldp
+                dest-mac nearest-bridge
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-non-tpmr
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-customer
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+            exit
+        exit
+        no shutdown
+    exit
+    port 2/1/2
+        description "TRUNK_ME-D6-MLK_2/1/2_TO_ME-D6-KBG_2/2/2_No:01_10G:VIA L2SW_No:1_SDW036_MUARALAWA"
+        ethernet
+            egress-scheduler-policy "10GPort"
+            lldp
+                dest-mac nearest-bridge
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-non-tpmr
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-customer
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+            exit
+            hold-time up 40 down 30
+        exit
+        no shutdown
+    exit
+    port 2/1/3
+        description "TRUNK_ME-D6-MLK_2/1/3_TO_ME-D6-KBG_4/1/1_No:03_10G:VIA_PSS32*1/17/C1"
+        ethernet
+            egress-scheduler-policy "10GPort"
+            lldp
+                dest-mac nearest-bridge
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-non-tpmr
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+                dest-mac nearest-customer
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+            exit
+            hold-time up 40 down 30
+        exit
+        no shutdown
+    exit
+    port 2/1/4
+        description "AKSES_GPON02-D6-MLA-4_172.20.167.107/26"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 2/1/5
+        description "AKSES_GPON03-D6-MLA-3MHU_172.20.163.160_xgei_1/3/2_10G_VIA DWDM-LTI_0/14/1"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 2/1/6
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/1/7
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/1/8
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/1/9
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/1/10
+        description "AKSES_GPON M.PAHU DAN RESAK_VIA L2SW_No:3"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 2/4/1
+        description "TRUNK ME-D6-MLK_2/4/1_TO_ME-D6-BTON_1/2/1_VIA RADIO CERAGON 600M"
+        ethernet
+            egress-scheduler-policy "1GPort"
+            lldp
+                dest-mac nearest-bridge
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+            exit
+        exit
+        no shutdown
+    exit
+    port 2/4/2
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/3
+        description "AKSES_ME-D6-MLK_2/4/3_TO_ME-D6-KBG_1/2/9_VIA_RADIO-IP20_800M_(SYSTEM1)"
+        ethernet
+            lldp
+                dest-mac nearest-non-tpmr
+                    admin-status tx-rx
+                    notification
+                    tx-tlvs port-desc sys-name sys-desc sys-cap
+                    tx-mgmt-address system
+                exit
+            exit
+        exit
+        no shutdown
+    exit
+    port 2/4/4
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/5
+        description "AKSES_BACKHAUL_RAN-TSEL_ME-D6-MLK#2/4/5_1G_RAN-PAG-MELAK.1#Gi0/4/3_DUALHOMING-ME-D6-MLK#3/2/6_LAG#5.1"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            no autonegotiate
+        exit
+        no shutdown
+    exit
+    port 2/4/6
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/7
+        description "AKSES_IPRAN_RAN-TSEL_ME-D6-MLK#2/4/7_0,5_ran-pag-melak.2#0/2/1_TO-ME-D6-TGG#1/2/21_ran-pag-bkbiru.2#0/3/1"
+        ethernet
+            mode access
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 2/4/8
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/9
+        description "AKSES_ME-D6-MLK_2/4/9_TO_ME-D6-KBG_1/2/1_VIA-RADIO-IP20-SYSTEM2_800M"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 2/4/10
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/11
+        description "AKSES_TSEL_SDW100_STO-MELAK"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            down-when-looped
+                no shutdown
+            exit
+        exit
+        no shutdown
+    exit
+    port 2/4/12
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/13
+        shutdown
+        description "AKSES_ME-D6-MLK/2/4/13_TO_PE-D6-MLA/GI0/1"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+    exit
+    port 2/4/14
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/15
+        description "AKSES_L2_SW BANPU MLK_10.63.0.73(Via SWM-SMR)_172.20.195.75(Via PE-BPP-MGT)"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            down-when-looped
+                no shutdown
+            exit
+            no autonegotiate
+        exit
+        no shutdown
+    exit
+    port 2/4/16
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/17
+        description "AKSES_GPON04-D6-MLA-4MRL"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 2/4/18
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/19
+        description "AKSES_SITE_SITE-TSEL_ME-D6-MLK-2/4/19_1000M_SDW113-MELAK2/KRNGREJOMELAK"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            down-when-looped
+                no shutdown
+            exit
+        exit
+        no shutdown
+    exit
+    port 2/4/20
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/21
+        description "AKSES_L2_ME-D6-MLK_2/4/21_TO_ME-D6-KBG_2/1/2_VIA RADIO IP-10#1_100M"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+        exit
+        no shutdown
+    exit
+    port 2/4/22
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/23
+        description "AKSES_BACKHAUL_RAN-TSEL_ME-D6-MLK#2/4/23_1G_RAN-PAG-MELAK.1#Gi0/3/6_DUALHOMING-ME-D6-MLK#3/2/6_LAG#5.2"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            down-when-looped
+                no shutdown
+            exit
+            no autonegotiate
+        exit
+        no shutdown
+    exit
+    port 2/4/24
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/25
+        description "AKSES_ME-D6-MLK_2/4/25_TO_ME-D6-KBG_2/1/3_VIA_RADIO_IP-20_SYSTEM4_FOR-TSEL_600M"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            down-when-looped
+                no shutdown
+            exit
+        exit
+        no shutdown
+    exit
+    port 2/4/26
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/27
+        description "AKSES_PORT_BACKBONE_USI_MELAK"
+        ethernet
+            mode access
+            mtu 9212
+            speed 100
+        exit
+        no shutdown
+    exit
+    port 2/4/28
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/29
+        shutdown
+        description "AKSES_GPON03-D6-MLA-3MHU_(gei_1/3/1)_172.20.163.160_VIA-DWDM-LTI_0-14-10"
+        ethernet
+            mode access
+            encap-type dot1q
+            mtu 9212
+            egress-scheduler-policy "1GPort"
+            down-when-looped
+                no shutdown
+            exit
+            no autonegotiate
+        exit
+    exit
+    port 2/4/30
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/31
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/32
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/33
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/34
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/35
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/36
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/37
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/38
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/39
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/40
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/41
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/42
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/43
+        shutdown
+        ethernet
+        exit
+    exit
+    port 2/4/44
+        shutdown
+        ethernet
+        exit
+    exit

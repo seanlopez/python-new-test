@@ -1,0 +1,70 @@
+{
+ "name":"External_Netwrok_IP_Public_Jakarta_1Gov_Global",
+ "value": "36.37.69.224/28",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},
+{
+ "name":"External_Netwrok_MOHcube_160413",
+ "value": "202.75.45.16/28",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},
+{
+ "name":"External_Netwrok_58.26.32.0_26",
+ "value": "58.26.32.0/26",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},
+{
+ "name":"External_Netwrok_Tourism_PWTC",
+ "value": "210.12.17.0/25",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},
+{
+ "name":"External_Netwrok_net_202.75.45.0_24",
+ "value": "202.75.45.0/24",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},
+{
+ "name":"External_Netwrok_SPA_PENTEST10313_2",
+ "value": "219.93.36.192/26",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},
+{
+ "name":"External_Netwrok_voip_test",
+ "value": "123.136.106.0/24",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},
+{
+ "name":"External_Netwrok_vc_mampu_240912_2",
+ "value": "202.170.57.0/24",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},
+{
+ "name":"External_Netwrok_SPA_PENTEST10313",
+ "value": "219.92.4.200/29",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},
+{
+ "name":"External_Netwrok_TIME_DOSH_110113_2",
+ "value": "211.25.199.0/25",
+ "overridable": false,
+ "description": "external Trusted",
+ "type": "network"
+},

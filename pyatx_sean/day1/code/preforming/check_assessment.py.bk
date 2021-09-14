@@ -1,0 +1,46 @@
+
+def assessment_logic_report(raw_data, policy, expectation, output_file, report_content, ignore_loop="False"):
+    result = policy(expectation, raw_data, ignore_loop)
+    report_result = {}
+    compliant_content = ""
+    non_compliant_content = ""
+
+    if len(report_content) == 1:
+        pass
+    elif len(report_content) == 2:
+        expectation_connection = report_content[0]["connection"]
+        report_key = result[0].keys()
+        report_dict = {}
+        compliant_content = report_content[1]["compliant"]
+        non_compliant_content = report_content[1]["non-compliant"]
+        for key in report_key:
+            value_list = []
+            for i in range(len(result)):
+                value_list.append(result[i][key])
+            report_dict[key] = value_list
+        if expectation_connection == "or":
+            for key in report_key:
+                if "compliant" in report_dict[key]:
+                    report_result[key] = "compliant"
+                else:
+                    report_result[key] = "non-compliant"
+        elif expectation_connection == "and":
+            for key in report_key:
+                if "non-compliant" not in report_dict[key]:
+                    report_result[key] = "compliant"
+                else:
+                    report_result[key] = "non-compliant"
+    report = open("output_file", "w", encoding="utf-8")
+    for key in report_result.keys():
+        if report_result[key] == "compliant":
+            report.write(f"{key}: {compliant_content}\n")
+        elif report_result[key] == "non-compliant":
+            report.write(f"{key}: {non_compliant_content}\n")
+    report.close()
+
+
+
+
+
+
+

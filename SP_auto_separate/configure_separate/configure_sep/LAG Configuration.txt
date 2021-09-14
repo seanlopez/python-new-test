@@ -1,0 +1,31 @@
+#--------------------------------------------------
+echo "LAG Configuration"
+#--------------------------------------------------
+    lag 1
+        description "*TRUNK_ME-D6-MLK_LAG-1_2x10G_TO_ME-D6-BTON_LAG-1_2x10G"
+        port 1/1/2
+        port 2/1/1
+        dynamic-cost
+        lacp active administrative-key 32770
+        no shutdown
+    exit
+    lag 2
+        description "TRUNK_ME-D6-MLK_LAG-2_3x10G_TO_ME-D6-KBG_LAG-2_3x10G"
+        port 1/1/1
+        port 2/1/2
+        port 2/1/3
+        dynamic-cost
+        lacp passive administrative-key 32771
+        no shutdown
+    exit
+    lag 4
+        description "AGGR_BACKHAUL_RAN-TSEL_ME-D6-MLK#LAG-4_2G_RAN-PAG-MELAK.1#_DUALHOMING-ME-D6-MLK#LAG-5"
+        mode access
+        encap-type dot1q
+        port 1/4/7
+        port 1/4/9
+        port 2/4/5
+        port 2/4/23
+        lacp passive administrative-key 32768
+        no shutdown
+    exit

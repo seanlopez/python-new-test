@@ -1,0 +1,59 @@
+#--------------------------------------------------
+echo "Log Configuration"
+#--------------------------------------------------
+    log
+        file-id 50
+            location cf3:
+            rollover 1440 retention 48
+        exit
+        event-control "chassis" 2058 generate critical
+        event-control "chassis" 2059 generate critical
+        event-control "chassis" 2063 generate critical
+        event-control "chassis" 2098 generate critical
+        event-control "chassis" 2099 generate critical
+        event-control "chassis" 2101 generate critical
+        event-control "chassis" 2102 generate critical
+        event-control "chassis" 2103 generate critical
+        event-control "chassis" 2110 generate critical
+        event-control "igmp" 2005 suppress
+        event-control "vrtr" 2034 generate
+        syslog 10
+            address 118.98.92.10
+            log-prefix "MED6MLK"
+        exit
+        snmp-trap-group 98
+            description "5620sam"
+            trap-target "172.30.140.66:162" address 172.30.140.66 snmpv2c notify-community "T3lkom-M3trotrap98"
+            trap-target "172.30.140.74:162" address 172.30.140.74 snmpv2c notify-community "T3lkom-M3trotrap98"
+            trap-target "AC162D880F88:main1" address 172.30.140.74 snmpv2c notify-community "T3lkom-M3trotrap98"
+            trap-target "AC162D880F88:main2" address 172.30.140.66 snmpv2c notify-community "T3lkom-M3trotrap98"
+        exit
+        log-id 9
+            no shutdown
+        exit
+        log-id 10
+            description " Events to splunk"
+            time-format local
+            from main security change
+            to syslog 10
+            no shutdown
+        exit
+        log-id 50
+            description "capture per 24 hours in 2 days"
+            time-format local
+            from main security change
+            to file 50
+            no shutdown
+        exit
+        log-id 91
+            description "Security & Change Log"
+            from security change
+            to memory 1024
+            no shutdown
+        exit
+        log-id 98
+            from main security change
+            to snmp 1024
+            no shutdown
+        exit
+    exit

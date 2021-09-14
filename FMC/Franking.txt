@@ -1,0 +1,86 @@
+[
+{
+ "name":"Franking_machine_bph",
+ "value": "10.20.185.229/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_machine_kkm1",
+ "value": "10.22.100.25/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_machine_kkm2",
+ "value": "10.22.36.32/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_machine_kkm3",
+ "value": "10.22.31.80/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_machine_jabatan_audit_negara",
+ "value": "10.23.158.11/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_machine_kkm4",
+ "value": "10.22.24.48/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_machine_kkm5",
+ "value": "10.22.32.90/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_machine_kpkt1",
+ "value": "10.16.120.122/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_machine_kpkt2",
+ "value": "10.16.90.249/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_dvs_franking_machine",
+ "value": "10.19.71.21/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_SR-CF-971-MPIC",
+ "value": "10.23.141.200/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+},
+{
+ "name":"Franking_SR-CF-973-KPM",
+ "value": "10.22.30.195/32",
+ "overridable": false,
+ "description": "Franking",
+ "type": "host"
+}
+]

@@ -1,0 +1,94 @@
+#--------------------------------------------------
+echo "System Security Configuration"
+#--------------------------------------------------
+    system
+        security
+            telnet-server
+            ftp-server
+            profile "sbcnprofile"
+                default-action deny-all
+                entry 10
+                    match "exit"
+                    action permit
+                exit
+                entry 20
+                    match "back"
+                    action permit
+                exit
+                entry 30
+                    match "logout"
+                    action permit
+                exit
+                entry 40
+                    match "help"
+                    action permit
+                exit
+                entry 50
+                    match "show"
+                    action permit
+                exit
+            exit
+            password
+                authentication-order tacplus local
+            exit
+            tacplus
+                accounting
+                authorization
+                server 1 address 202.134.2.169 secret "V9Bg8dGoieJ+DvaJt7XBz7SJe6c16Z2DgjktnQ==" hash2
+                server 2 address 202.134.3.123 secret "V9Bg8dGoieJ+DvaJt7XBz+hI/FSiSz6Mh4O5PQ==" hash2
+            exit
+            no user "admin"
+            user "cno-servo"
+                password "$2y$10$H780X1j402dT/Z28sjYnU.hioY1Y5uaXHJ9tyLeFDasxWR41quJJS"
+                access console ftp snmp
+                console
+                    member "default"
+                    member "administrative"
+                exit
+            exit
+            user "datacomm"
+                password "$2y$10$fZNVZETKhATHcENr7A/ec.qL0QvRKhE8z/x2/jFDSSY7K9omZY01m"
+                access console ftp snmp
+                console
+                    member "default"
+                    member "administrative"
+                exit
+            exit
+            user "rno-kalimantan"
+                password "$2y$10$vPb.yDBJ1a94rZB10PcCo.2.nVn.Fn57XaGrUKCgkQhOp7XgYTrMK"
+                access console ftp
+                console
+                    member "default"
+                    member "administrative"
+                exit
+            exit
+            user "sibacon"
+                password "$2y$10$pJp4Fe9fZjZlHXVyC0SgQ.90noJbTE3LYmICVwEVkkJqz/yidO4Hy"
+                access console ftp
+                console
+                    no member "default"
+                    member "sbcnprofile"
+                exit
+            exit
+            snmp
+                community "V9Bg8dGoieJ+DvaJt7XBz6O1xUgCLI16dnKt7Q==" hash2 rwa version both
+            exit
+            ssh
+                server-shutdown
+            exit
+            per-peer-queuing
+            cpm-queue
+                queue 101 create
+                    cbs 100
+                    mbs 100
+                    rate 100 cir 100
+                exit
+            exit
+            dist-cpu-protection
+                policy "_default-access-policy" create
+                exit
+                policy "_default-network-policy" create
+                exit
+            exit
+        exit
+    exit

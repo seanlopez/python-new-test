@@ -1,0 +1,8 @@
+Routers:
+  platform: cisco_ios
+  username: admin
+  password: cisco
+ASAs:
+  platform: cisco_asa
+  username: admin
+  password: cisco

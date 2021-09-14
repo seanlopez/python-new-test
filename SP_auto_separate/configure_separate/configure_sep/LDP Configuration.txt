@@ -1,0 +1,51 @@
+#--------------------------------------------------
+echo "LDP Configuration"
+#--------------------------------------------------
+        ldp
+            import "import-only-host-addresses"
+            legacy-ipv4-lsr-interop
+            interface-parameters
+                interface "to-ces-d6-lkt" dual-stack
+                    ipv4
+                        no shutdown
+                    exit
+                    no shutdown
+                exit
+                interface "to-me-d6-bton" dual-stack
+                    ipv4
+                        no shutdown
+                    exit
+                    no shutdown
+                exit
+                interface "to-me-d6-kbg" dual-stack
+                    ipv4
+                        no shutdown
+                    exit
+                    no shutdown
+                exit
+                interface "to-me-d6-kbg-fo" dual-stack
+                    ipv4
+                        no shutdown
+                    exit
+                    no shutdown
+                exit
+                interface "to-me-d6-kbg-radio-2" dual-stack
+                    ipv4
+                        no shutdown
+                    exit
+                    no shutdown
+                exit
+                interface "to-me-d6-tgg-via-ceragon" dual-stack
+                    ipv4
+                        transport-address interface
+                        no shutdown
+                    exit
+                    no shutdown
+                exit
+            exit
+            targeted-session
+            exit
+            no shutdown
+        exit
+    exit
+

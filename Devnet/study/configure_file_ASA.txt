@@ -1,0 +1,4 @@
+interface g0/0
+no sh
+nameif inside
+ip add 1.1.1.1 255.255.255.0

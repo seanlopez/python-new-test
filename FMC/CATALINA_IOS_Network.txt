@@ -1,0 +1,9 @@
+[
+{
+ "name":"CATALINA_IOS_JKSM_SR-CF-1060",
+ "value": "10.25.150.53/22",
+ "overridable": false,
+ "description": "CATALINA",
+ "type": "network"
+}
+]

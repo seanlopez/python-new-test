@@ -1,5 +1,6 @@
 count = int(input())
 
+
 for i in range(count):
     line = str(input())
     line_list = line.split(" ")

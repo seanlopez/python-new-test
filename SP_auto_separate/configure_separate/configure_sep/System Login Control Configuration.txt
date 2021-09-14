@@ -1,0 +1,13 @@
+#--------------------------------------------------
+echo "System Login Control Configuration"
+#--------------------------------------------------
+    system
+        login-control
+            telnet
+                inbound-max-sessions 15
+                outbound-max-sessions 15
+            exit
+            idle-timeout 5
+            pre-login-message "         _____ _____ _     _  _____  __  __\n        |_   _| ____| |   | |/ / _ \\|  \\/  |\n          | | |  _| | |   | ' / | | | |\\/| |\n          | | | |___| |___| . \\ |_| | |  | |\n ___ _   _|_|_|_____|_____|_|\\_\\___/|_| _|_|   _\n|_ _| \\ | |  _ \\ / _ \\| \\ | | ____/ ___|_ _|  / \\\n | ||  \\| | | | | | | |  \\| |  _| \\___ \\| |  / _ \\\n | || |\\  | |_| | |_| | |\\  | |___ ___) | | / ___ \\\n|___|_| \\_|____/ \\___/|_| \\_|_____|____/___/_/   \\_\\\n\nHOSTNAME    : ME-D6-MLK - ARNET SAMARINDA - MELAK  \nINST. LOC   : MELAK \nADDRESS     : ARNET SAMARINDA \nINST. DATE  : Maret, 2020 \nPIC         : PRIYONO / 670002\nPHONE       : 081257606393\nPIC         : SO&M Multimedia Arnet Samarinda\nPHONE       : 0541-732900, 746000, 081270265241 \nCOORDINATES : -0.2360562,115.809685\nADDRESS     : Melak Ulu, Melak, Kabupaten Kutai Barat, Kalimantan Timur 75775 "
+        exit
+    exit

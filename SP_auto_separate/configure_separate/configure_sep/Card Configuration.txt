@@ -1,0 +1,29 @@
+#--------------------------------------------------
+echo "Card Configuration"
+#--------------------------------------------------
+    card 1
+        card-type iom-a
+        mda 1
+            mda-type maxp10-10gb-sfp+
+            no shutdown
+        exit
+        mda 4
+            mda-type ma44-1gb-csfp
+            no shutdown
+        exit
+        no shutdown
+    exit
+    card 2
+        card-type iom-a
+        mda 1
+            mda-type maxp10-10gb-sfp+
+            no shutdown
+        exit
+        mda 4
+            mda-type ma44-1gb-csfp
+            no shutdown
+        exit
+        no shutdown
+    exit
+
+

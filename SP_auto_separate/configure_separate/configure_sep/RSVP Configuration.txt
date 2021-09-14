@@ -1,0 +1,27 @@
+#--------------------------------------------------
+echo "RSVP Configuration"
+#--------------------------------------------------
+        rsvp
+            interface "system"
+                no shutdown
+            exit
+            interface "to-ces-d6-lkt"
+                no shutdown
+            exit
+            interface "to-me-d6-bton"
+                no shutdown
+            exit
+            interface "to-me-d6-kbg"
+                no shutdown
+            exit
+            interface "to-me-d6-kbg-fo"
+                no shutdown
+            exit
+            interface "to-me-d6-kbg-radio-2"
+                no shutdown
+            exit
+            interface "to-me-d6-tgg-via-ceragon"
+                no shutdown
+            exit
+            no shutdown
+        exit

@@ -1,0 +1,534 @@
+#--------------------------------------------------
+echo "Filter Configuration"
+#--------------------------------------------------
+    filter
+        mac-filter 10 name "10" create
+            default-action forward
+            entry 10 create
+                match frame-type 802dot3
+                    src-mac 00:26:0a:30:33:ec ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+        exit
+        mac-filter 50 name "50" create
+            default-action forward
+            entry 10 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:79:00 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 20 create
+                match frame-type 802dot3
+                    src-mac 24:e9:b3:e2:3c:80 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+        exit
+        mac-filter 200 name "200" create
+            description "WHITELIST LAYANAN IPTV"
+            entry 10 create
+                match frame-type 802dot3
+                    src-mac 00:26:ed:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 20 create
+                match frame-type 802dot3
+                    src-mac 30:f3:1d:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 30 create
+                match frame-type 802dot3
+                    src-mac 4c:09:b4:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 40 create
+                match frame-type 802dot3
+                    src-mac 4c:16:f1:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 50 create
+                match frame-type 802dot3
+                    src-mac b0:75:d5:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 60 create
+                match frame-type 802dot3
+                    src-mac d0:15:4a:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 70 create
+                match frame-type 802dot3
+                    src-mac 3c:da:2a:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 80 create
+                match frame-type 802dot3
+                    src-mac 90:d8:f3:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 90 create
+                match frame-type 802dot3
+                    src-mac 74:97:81:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 95 create
+                match frame-type 802dot3
+                    src-mac 14:b3:8e:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 105 create
+                match frame-type 802dot3
+                    src-mac 04:95:73:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 115 create
+                match frame-type 802dot3
+                    src-mac 90:07:03:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 120 create
+                description "STB Huawei Kalimantan dan KTI"
+                match frame-type 802dot3
+                    src-mac 54:93:59:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 125 create
+                match frame-type 802dot3
+                    src-mac d0:71:c7:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 130 create
+                match frame-type 802dot3
+                    src-mac 08:18:1a:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 140 create
+                match frame-type 802dot3
+                    src-mac 28:8c:b8:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 150 create
+                match frame-type 802dot3
+                    src-mac 30:f3:1d:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 160 create
+                match frame-type 802dot3
+                    src-mac 4c:16:f1:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 170 create
+                match frame-type 802dot3
+                    src-mac d0:71:c4:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 180 create
+                match frame-type 802dot3
+                    src-mac 4c:ac:00:00:00:00 ff:ff:00:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 185 create
+                match frame-type 802dot3
+                    src-mac a4:40:27:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 190 create
+                match frame-type 802dot3
+                    src-mac 60:31:3b:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 195 create
+                match frame-type 802dot3
+                    src-mac 08:a5:c8:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 200 create
+                match frame-type 802dot3
+                    src-mac 6c:ef:c6:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 205 create
+                match frame-type 802dot3
+                    src-mac 54:c5:7a:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 220 create
+                match frame-type 802dot3
+                    src-mac 00:2f:d9:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 230 create
+                match frame-type 802dot3
+                    src-mac f0:40:7b:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 240 create
+                match frame-type 802dot3
+                    src-mac 10:58:87:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 300 create
+                match frame-type 802dot3
+                    src-mac 74:12:bb:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 310 create
+                match frame-type 802dot3
+                    src-mac 48:a0:f8:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 330 create
+                match frame-type 802dot3
+                    src-mac 08:a5:c8:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 340 create
+                match frame-type 802dot3
+                    src-mac 60:31:3b:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 350 create
+                match frame-type 802dot3
+                    src-mac 60:d2:1c:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 360 create
+                match frame-type 802dot3
+                    src-mac 6c:ef:c6:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 370 create
+                match frame-type 802dot3
+                    src-mac a4:19:08:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 400 create
+                match frame-type 802dot3
+                    src-mac d4:c1:c8:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 450 create
+                match frame-type 802dot3
+                    src-mac c8:f6:c8:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 460 create
+                match frame-type 802dot3
+                    src-mac d4:58:00:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 470 create
+                match frame-type 802dot3
+                    src-mac a4:40:27:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 480 create
+                match frame-type 802dot3
+                    src-mac 28:8c:b8:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 490 create
+                match frame-type 802dot3
+                    src-mac 58:5f:f6:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 500 create
+                match frame-type 802dot3
+                    src-mac e8:ac:ad:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 510 create
+                match frame-type 802dot3
+                    src-mac 10:dc:4a:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 560 create
+                match frame-type 802dot3
+                    src-mac dc:df:d6:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 590 create
+                match frame-type 802dot3
+                    src-mac c4:74:1e:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 1020 create
+                match frame-type 802dot3
+                    src-mac ac:00:d0:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 1030 create
+                match frame-type 802dot3
+                    src-mac 38:7a:3c:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 1040 create
+                match frame-type 802dot3
+                    src-mac 88:23:8c:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+            entry 1070 create
+                match frame-type 802dot3
+                    src-mac 9c:2f:4e:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    forward
+                exit
+            exit
+        exit
+        mac-filter 400 name "400" create
+            default-action forward
+            description "DROP MAC UPLINK WIFI"
+            entry 10 create
+                match frame-type 802dot3
+                    src-mac 24:e9:b3:e2:3c:80 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 20 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:00 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 30 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:00 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 40 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:01 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 50 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:02 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 60 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:09 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 70 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:10 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 80 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:11 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 90 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:06 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 100 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:07 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+            entry 110 create
+                match frame-type 802dot3
+                    src-mac d0:c7:89:a9:f8:08 ff:ff:ff:ff:ff:ff
+                exit
+                action
+                    drop
+                exit
+            exit
+        exit
+        mac-filter 600 name "600" create
+            description "WHITELIST AP WIFI-ID CISCO"
+            entry 2 create
+                match frame-type 802dot3
+                    src-mac 00:06:f6:00:00:00 ff:ff:ff:00:00:00
+                exit
+                action
+                    drop
+                exit
+            exit
+        exit
+    exit

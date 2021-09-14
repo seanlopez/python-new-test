@@ -1,0 +1,170 @@
+#--------------------------------------------------
+echo "MPLS LSP Configuration"
+#--------------------------------------------------
+        mpls
+            path "dynamic"
+                no shutdown
+            exit
+            path "to-me-d6-tgg-lan"
+                hop 10 172.31.134.41 strict
+                no shutdown
+            exit
+            path "to_me-d6-bpp_path"
+                hop 10 172.31.132.222 strict
+                hop 20 172.31.134.70 strict
+                hop 30 172.31.135.161 strict
+                hop 40 172.31.132.214 strict
+                hop 50 172.31.135.17 strict
+                hop 60 172.31.135.14 strict
+                no shutdown
+            exit
+            path "TO-ME3-BPP"
+                hop 10 172.31.134.41 strict
+                hop 15 172.31.1.177 strict
+                hop 20 172.31.134.158 strict
+                hop 30 172.31.134.25 strict
+                no shutdown
+            exit
+            path "TO-BPP"
+                hop 10 172.31.5.41 strict
+                hop 20 172.31.134.70 strict
+                hop 30 172.31.134.158 strict
+                hop 40 172.31.134.249 strict
+                hop 50 172.31.135.17 strict
+                hop 60 172.31.135.14 strict
+                no shutdown
+            exit
+            path "to-me-d6-kbg-fo"
+                hop 10 172.31.5.142 strict
+                no shutdown
+            exit
+            path "to-SBB-fo_only"
+                hop 10 172.31.5.141 strict
+                hop 20 172.31.134.70 strict
+                hop 30 172.31.129.124 loose
+                no shutdown
+            exit
+            path "to-me3-d6-bpp"
+                hop 10 172.31.5.141 strict
+                hop 20 172.31.134.70 strict
+                hop 30 172.31.135.161 strict
+                hop 40 172.31.132.214 strict
+                hop 50 172.31.135.17 strict
+                no shutdown
+            exit
+            path "MLK-BPP3-FO"
+                hop 10 172.31.5.141 strict
+                hop 20 172.31.129.103 loose
+                no shutdown
+            exit
+            path "MLK-BAM3-FO"
+                hop 10 172.31.5.141 strict
+                hop 20 172.31.129.104 loose
+                no shutdown
+            exit
+            path "MLK-BPP3-RADIO"
+                hop 10 172.31.132.222 strict
+                hop 20 172.31.129.103 loose
+                no shutdown
+            exit
+            lsp "to-smr"
+                to 172.31.129.4
+                cspf
+                fast-reroute one-to-one
+                exit
+                primary "dynamic"
+                exit
+                no shutdown
+            exit
+            lsp "to-me-d6-tgg-lan"
+                to 172.31.129.65
+                primary "to-me-d6-tgg-lan"
+                exit
+                secondary "dynamic"
+                    standby
+                exit
+                no shutdown
+            exit
+            lsp "to_me-d6-bpp_lsp"
+                to 172.31.129.3
+                primary "to_me-d6-bpp_path"
+                exit
+                secondary "dynamic"
+                    standby
+                exit
+                no shutdown
+            exit
+            lsp "TO-ME3-BPP"
+                to 172.31.129.103
+                primary "TO-ME3-BPP"
+                exit
+                secondary "dynamic"
+                exit
+                no shutdown
+            exit
+            lsp "to-me-d6-tgg2-lan"
+                to 172.31.129.192
+                primary "to-me-d6-tgg-lan"
+                exit
+                secondary "dynamic"
+                    standby
+                exit
+                no shutdown
+            exit
+            lsp "MLK-TO-BPP"
+                to 172.31.129.3
+                primary "TO-BPP"
+                exit
+                secondary "dynamic"
+                    standby
+                exit
+                no shutdown
+            exit
+            lsp "to-me-d6-kbg-fo"
+                to 172.31.5.141
+                primary "to-me-d6-kbg-fo"
+                exit
+                no shutdown
+            exit
+            lsp "to-SBB-fo_only"
+                to 172.31.129.124
+                primary "to-SBB-fo_only"
+                exit
+                no shutdown
+            exit
+            lsp "to-me3-d6-bpp"
+                to 172.31.129.103
+                fast-reroute one-to-one
+                exit
+                primary "to-me3-d6-bpp"
+                exit
+                secondary "dynamic"
+                    standby
+                exit
+                no shutdown
+            exit
+            lsp "MLK-BPP3-FO"
+                to 172.31.129.103
+                primary "MLK-BPP3-FO"
+                exit
+                no shutdown
+            exit
+            lsp "MLK-BAM3-FO"
+                to 172.31.129.104
+                primary "MLK-BAM3-FO"
+                exit
+                no shutdown
+            exit
+            lsp "MLK-BPP3-RADIO"
+                to 172.31.129.103
+                primary "MLK-BPP3-FO"
+                exit
+                secondary "MLK-BPP3-RADIO"
+                    bandwidth 250
+                exit
+                secondary "dynamic"
+                exit
+                no shutdown
+            exit
+            no shutdown
+        exit

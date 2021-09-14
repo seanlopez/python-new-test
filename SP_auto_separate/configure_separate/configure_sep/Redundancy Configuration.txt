@@ -1,0 +1,6 @@
+#--------------------------------------------------
+echo "Redundancy Configuration"
+#--------------------------------------------------
+    redundancy
+        synchronize config
+    exit

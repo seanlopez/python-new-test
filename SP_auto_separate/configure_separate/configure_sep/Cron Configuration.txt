@@ -1,0 +1,16 @@
+#--------------------------------------------------
+echo "Cron Configuration"
+#--------------------------------------------------
+        cron
+            schedule "backup-config"
+                script-policy "backup-config"
+                type calendar
+                day-of-month all
+                hour  2
+                minute  0
+                month all
+                weekday all
+                no shutdown
+            exit
+        exit
+    exit

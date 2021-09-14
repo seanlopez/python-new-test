@@ -1,0 +1,51 @@
+#--------------------------------------------------
+echo "OSPFv2 Configuration"
+#--------------------------------------------------
+        ospf 0
+            traffic-engineering
+            area 0.0.0.60
+                interface "system"
+                    no shutdown
+                exit
+                interface "to-ces-d6-lkt"
+                    interface-type point-to-point
+                    authentication-type message-digest
+                    message-digest-key 1 md5 "V9Bg8dGoieJ+DvaJt7XBz7bgKGo42bWsTGgVUQ==" hash2
+                    no shutdown
+                exit
+                interface "to-me-d6-bton"
+                    interface-type point-to-point
+                    metric 65000
+                    authentication-type message-digest
+                    message-digest-key 1 md5 "DX33GhIUYMoKxL/TQOE7ufRbIkFtNoiohcMPsA==" hash2
+                    no shutdown
+                exit
+                interface "to-me-d6-kbg"
+                    interface-type point-to-point
+                    authentication-type message-digest
+                    message-digest-key 1 md5 "LBVt+5lsjgXE6fqDmge2OqsFYY33FZo6pHTRLQ==" hash2
+                    no shutdown
+                exit
+                interface "to-me-d6-kbg-fo"
+                    interface-type point-to-point
+                    authentication-type message-digest
+                    message-digest-key 1 md5 "LBVt+5lsjgXE6fqDmge2OlFg+4SMQGb56YtTqA==" hash2
+                    no shutdown
+                exit
+                interface "to-me-d6-kbg-radio-2"
+                    interface-type point-to-point
+                    authentication-type message-digest
+                    message-digest-key 1 md5 "LBVt+5lsjgXE6fqDmge2OiA+HX7Lw+uYIkuvaw==" hash2
+                    no shutdown
+                exit
+                interface "to-me-d6-tgg-via-ceragon"
+                    interface-type point-to-point
+                    mtu 1600
+                    metric 666
+                    authentication-type message-digest
+                    message-digest-key 1 md5 "DX33GhIUYMoKxL/TQOE7ucxp6HF9NV5qyHxk6Q==" hash2
+                    no shutdown
+                exit
+            exit
+            no shutdown
+        exit

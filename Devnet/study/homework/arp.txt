@@ -1,0 +1,44 @@
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  2.2.2.2                 -   aabb.cc00.1020  ARPA   Ethernet0/2
+Internet  192.168.17.1            0   0050.56c0.0008  ARPA   Ethernet0/0
+Internet  192.168.17.2            4   0050.56fa.381d  ARPA   Ethernet0/0
+Internet  192.168.17.140          -   aabb.cc00.1000  ARPA   Ethernet0/0
+
+mgmt 192.168.17.1 0050.56c0.0008 28
+
+
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  2.2.2.2                 -   aabb.cc00.1020  ARPA   Ethernet0/2
+Internet  192.168.17.1            0   0050.56c0.0008  ARPA   Ethernet0/0
+Internet  192.168.17.2            4   0050.56fa.381d  ARPA   Ethernet0/0
+Internet  192.168.17.140          -   aabb.cc00.1000  ARPA   Ethernet0/0
+
+mgmt 192.168.17.1 0050.56c0.0008 11
+
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  2.2.2.2                 -   aabb.cc00.1020  ARPA   Ethernet0/2
+Internet  192.168.17.1            0   0050.56c0.0008  ARPA   Ethernet0/0
+Internet  192.168.17.2            2   0050.56fa.381d  ARPA   Ethernet0/0
+Internet  192.168.17.140          -   aabb.cc00.1000  ARPA   Ethernet0/0
+
+	mgmt 192.168.17.1 0050.56c0.0008 24
+
+
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  2.2.2.2                 -   aabb.cc00.1020  ARPA   Ethernet0/2
+Internet  192.168.17.1            0   0050.56c0.0008  ARPA   Ethernet0/0
+Internet  192.168.17.2            3   0050.56fa.381d  ARPA   Ethernet0/0
+Internet  192.168.17.140          -   aabb.cc00.1000  ARPA   Ethernet0/0
+
+	mgmt 192.168.17.1 0050.56c0.0008 35
+
+
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  2.2.2.2                 -   aabb.cc00.1020  ARPA   Ethernet0/2
+Internet  192.168.17.1            0   0050.56c0.0008  ARPA   Ethernet0/0
+Internet  192.168.17.2            1   0050.56fa.381d  ARPA   Ethernet0/0
+Internet  192.168.17.140          -   aabb.cc00.1000  ARPA   Ethernet0/0
+
+	mgmt 192.168.17.1 0050.56c0.0008 0
+
+

@@ -1,0 +1,308 @@
+2021-06-14 14:44:09,344 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show clock'} on 1 hosts
+2021-06-14 14:44:14,372 - nornir.core.task -    ERROR -      start() - Host 'ios-xr01': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 10, in __init__
+    return super().__init__(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 350, in __init__
+    self._open()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 14, in establish_connection
+    super().establish_connection(width=511, height=511)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_xr 192.168.31.191:9000
+
+
+
+2021-06-14 14:44:49,154 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show clock'} on 1 hosts
+2021-06-14 14:44:54,167 - nornir.core.task -    ERROR -      start() - Host 'ios-xr01': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 10, in __init__
+    return super().__init__(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 350, in __init__
+    self._open()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 14, in establish_connection
+    super().establish_connection(width=511, height=511)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_xr 192.168.31.191:9000
+
+
+
+2021-06-14 14:45:07,735 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show clock'} on 1 hosts
+2021-06-14 14:45:09,838 - nornir.core.task -    ERROR -      start() - Host 'ios-xr01': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\client.py", line 368, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 9000 on 192.168.31.191
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 10, in __init__
+    return super().__init__(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 350, in __init__
+    self._open()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 14, in establish_connection
+    super().establish_connection(width=511, height=511)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_xr 192.168.31.191:9000
+
+
+
+2021-06-14 14:53:12,306 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show clock'} on 1 hosts
+2021-06-14 15:55:08,679 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show clock'} on 1 hosts
+2021-06-14 15:59:04,572 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show clock'} on 1 hosts
+2021-06-14 15:59:09,925 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:00:09,287 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show clock'} on 1 hosts
+2021-06-14 16:00:14,741 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:00:38,212 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show clock'} on 1 hosts
+2021-06-14 16:00:43,513 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:01:14,916 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 16:01:20,219 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:02:04,150 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 16:02:09,548 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:10:53,896 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'interface loopback100'} on 1 hosts
+2021-06-14 16:10:59,224 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:12:03,902 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'interface loopback100'} on 1 hosts
+2021-06-14 16:12:09,284 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:12:18,911 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'interface loopback100'} on 1 hosts
+2021-06-14 16:12:24,193 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:12:32,536 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:13:42,082 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:14:43,342 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:52:07,756 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip inter bri'} on 1 hosts
+2021-06-14 16:52:13,067 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:54:57,840 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip inter bri'} on 1 hosts
+2021-06-14 16:55:03,083 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 16:58:47,378 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip inter bri'} on 1 hosts
+2021-06-14 16:58:52,735 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:04:44,372 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip inter bri'} on 1 hosts
+2021-06-14 17:04:49,707 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:06:09,595 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip inter bri'} on 1 hosts
+2021-06-14 17:06:14,816 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:14:53,602 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show configuration failed'} on 1 hosts
+2021-06-14 17:15:30,487 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:18:51,493 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show configuration failed'} on 1 hosts
+2021-06-14 17:27:34,585 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:27:39,604 - nornir.core.task -    ERROR -      start() - Host 'ios-xr01': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\tasks\netmiko_send_config.py", line 24, in netmiko_send_config
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 10, in __init__
+    return super().__init__(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 350, in __init__
+    self._open()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 14, in establish_connection
+    super().establish_connection(width=511, height=511)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_xr 192.168.31.191:9000
+
+
+
+2021-06-14 17:27:39,604 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show configuration failed'} on 1 hosts
+2021-06-14 17:28:02,432 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:29:48,243 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show configuration failed'} on 1 hosts
+2021-06-14 17:30:30,947 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:31:54,512 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show configuration failed'} on 1 hosts
+2021-06-14 17:44:09,431 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:47:26,004 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show configuration failed'} on 1 hosts
+2021-06-14 17:48:16,727 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:51:34,954 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show configuration failed'} on 1 hosts
+2021-06-14 17:53:07,822 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config_commands.cfg'} on 1 hosts
+2021-06-14 17:53:13,807 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show configuration failed'} on 1 hosts
+2021-06-14 20:11:16,146 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 20:20:56,343 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 20:21:52,036 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 20:22:06,563 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 20:32:01,445 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 20:32:06,466 - nornir.core.task -    ERROR -      start() - Host 'ios-xr01': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 935, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\util.py", line 283, in retry_on_signal
+    return function()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\paramiko\client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 494, in get_connection
+    self.open_connection(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 546, in open_connection
+    conn_obj.open(
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\ssh_dispatcher.py", line 326, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 10, in __init__
+    return super().__init__(*args, **kwargs)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 350, in __init__
+    self._open()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 355, in _open
+    self.establish_connection()
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\cisco\cisco_xr.py", line 14, in establish_connection
+    super().establish_connection(width=511, height=511)
+  File "C:\Users\tianyuan\AppData\Local\Programs\Python\Python39\lib\site-packages\netmiko\base_connection.py", line 957, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.ssh_exception.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_xr 192.168.31.191:9000
+
+
+
+2021-06-14 20:32:21,694 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 20:57:34,619 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 21:57:15,700 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 21:57:21,071 -  nornir.core -     INFO -        run() - Running task 'mytask' with args {} on 1 hosts
+2021-06-14 22:01:06,460 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 22:01:12,190 -  nornir.core -     INFO -        run() - Running task 'do_task_func' with args {} on 1 hosts
+2021-06-14 22:05:11,027 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 22:05:16,442 -  nornir.core -     INFO -        run() - Running task 'do_task_func' with args {} on 1 hosts
+2021-06-14 22:05:31,365 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 22:05:36,748 -  nornir.core -     INFO -        run() - Running task 'do_task_func' with args {} on 1 hosts
+2021-06-14 22:10:14,005 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 22:10:19,263 -  nornir.core -     INFO -        run() - Running task 'do_task_func' with args {} on 1 hosts
+2021-06-14 22:12:11,629 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 22:12:16,814 -  nornir.core -     INFO -        run() - Running task 'do_task_func' with args {} on 1 hosts
+2021-06-14 22:12:37,344 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 22:12:42,707 -  nornir.core -     INFO -        run() - Running task 'do_task_func' with args {} on 1 hosts
+2021-06-14 22:13:29,780 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface bri'} on 1 hosts
+2021-06-14 22:13:35,047 -  nornir.core -     INFO -        run() - Running task 'do_task_func' with args {} on 1 hosts
